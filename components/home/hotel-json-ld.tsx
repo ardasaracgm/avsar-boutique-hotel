@@ -20,6 +20,7 @@ export function HotelJsonLd({ url }: { url: string }) {
     "@context": "https://schema.org",
     "@type": "Hotel",
     name: hotel.name,
+    ...(hotel.legal.companyTitle ? { legalName: hotel.legal.companyTitle } : {}),
     url,
     description: t("description"),
     telephone: contact.phone.tel,

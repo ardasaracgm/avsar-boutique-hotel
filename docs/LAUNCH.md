@@ -3,7 +3,7 @@
 ## Before switching the domain
 - [ ] **Photos**: originals in `public/images/…`, slots filled in `data/media.ts` (hero, intro, rooms ×7, Dialogue, breakfast, pool, spa, night exterior, gallery). Replace `public/og.png` with a hero crop (1200×630).
 - [ ] **Logo**: replace the text wordmark (`components/layout/wordmark.tsx`) and icons (`app/icon.png`, `app/apple-icon.png`, `app/favicon.ico`) if the hotel has an official logo.
-- [ ] **Legal**: fill `hotel.legal.companyTitle` (registered company name). Have KVKK / privacy / terms texts reviewed by the hotel's legal advisor.
+- [x] **Company title** added (from the tourism licence). [ ] **Legal**: have KVKK / privacy / terms texts reviewed by the hotel's legal advisor.
 - [ ] **Vercel plan**: move the project to a Pro account/team (Hobby is non-commercial).
 - [ ] **ElektraWeb panel**: hotel name → "Avşar Boutique Hotel", phone → 0242 324 25 05, website → https://hotelavsar.com, e-mail (decide info@ vs rezervasyon@), "Standard Landview" → "Standard Land View".
 - [ ] **WhatsApp**: replace the temporary number in `data/hotel.ts` when ready.

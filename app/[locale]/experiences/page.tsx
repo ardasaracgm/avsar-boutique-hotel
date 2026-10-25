@@ -83,7 +83,7 @@ export default async function ExperiencesPage() {
         </FeatureBlock>
 
         <FeatureBlock id="spa" title={t("experiencesPage.spa.title")} image={media.spa} slot="spa" reverse>
-          <p className="mt-5 text-lg leading-relaxed text-ink-muted">{t("experiencesPage.spa.text")}</p>
+          <p className="mt-5 text-lg leading-relaxed text-ink-muted">{t("experiencesPage.spa.text", { rooms: hotel.facilities.spa.massageRooms })}</p>
           <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm">
             {hotel.facilities.spa.services.map((svc) => (
               <li key={svc} className="flex items-center gap-2">

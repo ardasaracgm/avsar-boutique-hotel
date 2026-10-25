@@ -198,7 +198,8 @@
     "reception": "Rezeption rund um die Uhr geöffnet",
     "license": "Lizenz-Nr. des Ministeriums für Kultur und Tourismus: {number}",
     "rights": "© {year} {hotel}. Alle Rechte vorbehalten.",
-    "languages": "Sprachen"
+    "languages": "Sprachen",
+    "verifyLicense": "Lizenz prüfen"
   },
   "whatsapp": {
     "label": "Schreiben Sie uns auf WhatsApp",
@@ -321,11 +322,12 @@
     },
     "spa": {
       "title": "Spa & Massage",
-      "text": "Lassen Sie den Tag im Avşar Spa hinter sich: Hamam, Sauna und verschiedene Massagen. Für Details und Termine schreiben Sie uns.",
+      "text": "Lassen Sie den Tag im Avşar Spa hinter sich: Hamam, Sauna, Dampfbad und verschiedene Massagen in {rooms} Behandlungsräumen. Für Details und Termine schreiben Sie uns.",
       "contact": "Anfragen",
       "services": {
         "hammam": "Hamam",
         "sauna": "Sauna",
+        "steamRoom": "Dampfbad",
         "massage": "Verschiedene Massagen"
       },
       "paid": "Alle Spa-Leistungen sind kostenpflichtig."

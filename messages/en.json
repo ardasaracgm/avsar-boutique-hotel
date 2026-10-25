@@ -198,7 +198,8 @@
     "reception": "Reception open 24/7",
     "license": "Ministry of Culture and Tourism licence no. {number}",
     "rights": "© {year} {hotel}. All rights reserved.",
-    "languages": "Languages"
+    "languages": "Languages",
+    "verifyLicense": "Verify licence"
   },
   "whatsapp": {
     "label": "Message us on WhatsApp",
@@ -321,11 +322,12 @@
     },
     "spa": {
       "title": "Spa & Massage",
-      "text": "Leave the day behind at Avşar Spa: hammam, sauna and a choice of massages. Message us for details and appointments.",
+      "text": "Leave the day behind at Avşar Spa: hammam, sauna, steam room and a choice of massages in {rooms} treatment rooms. Message us for details and appointments.",
       "contact": "Ask us",
       "services": {
         "hammam": "Hammam",
         "sauna": "Sauna",
+        "steamRoom": "Steam room",
         "massage": "Choice of massages"
       },
       "paid": "All spa services are charged separately."

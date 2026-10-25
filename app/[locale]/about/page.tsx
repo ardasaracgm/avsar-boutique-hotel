@@ -92,6 +92,10 @@ export default async function AboutPage() {
           </ul>
           <p className="mt-14 border-t border-navy/10 pt-6 text-xs text-ink-muted">
             {t("aboutPage.license", { number: hotel.legal.tourismLicenseNo.value })}
+            {" · "}
+            <a href={hotel.legal.licenseVerifyUrl} target="_blank" rel="noopener" className="underline underline-offset-4">
+              {t("footer.verifyLicense")}
+            </a>
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <ButtonAnchor href={bookingHomeUrl(locale)} arrow>

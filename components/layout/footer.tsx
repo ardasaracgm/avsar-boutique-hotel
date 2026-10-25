@@ -107,7 +107,13 @@ export function Footer() {
             <p>
               <Copyright />
             </p>
-            <p>{t("footer.license", { number: legal.tourismLicenseNo.value.replace(/-/g, "\u2011") })}</p>
+            <p>
+              {t("footer.license", { number: legal.tourismLicenseNo.value.replace(/-/g, "\u2011") })}
+              {" · "}
+              <a href={legal.licenseVerifyUrl} target="_blank" rel="noopener" className="underline-offset-4 hover:text-ivory hover:underline">
+                {t("footer.verifyLicense")}
+              </a>
+            </p>
           </div>
           <div className="flex items-center gap-2">
             <span className="sr-only">{t("footer.languages")}</span>

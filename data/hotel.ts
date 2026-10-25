@@ -46,17 +46,20 @@ export const hotel = {
   },
 
   legal: {
+    // Source: Basit Konaklama Turizm İşletmesi Belgesi (Ministry of Culture and Tourism), 13.09.2022.
     tourismLicenseNo: { value: "2022-7-1027", verified: true },
-    // TODO: registered company name (ticari ünvan) of the operator — data controller in KVKK texts.
-    // While null, the legal pages fall back to the hotel name.
-    companyTitle: null as string | null,
+    licenseType: "Basit Konaklama Turizm İşletmesi Belgesi",
+    licenseDate: "2022-09-13",
+    licenseVerifyUrl: "https://vatandas.ktb.gov.tr/dogrulama/basit-belge/80e19d58-aec5-4a6e-91d2-f8ce6997814d",
+    /** Registered company (licence holder) — data controller in the KVKK texts. */
+    companyTitle: "Avşaroğlu Kuyumculuk Turizm İşletmeleri Sanayi ve Ticaret Limited Şirketi" as string | null,
     /** Date the legal texts (KVKK, privacy, terms) were last revised. */
     textsUpdated: "2026-10-25",
   },
 
   property: {
     totalRooms: { value: 36, verified: true },
-    totalBeds: { value: 78, verified: false, note: "Old About page" },
+    totalBeds: { value: 72, verified: true }, // tourism licence: 36 rooms, capacity 72
     roomTypeCount: 7, // ElektraWeb room list (25 Oct 2026)
     checkIn: { value: "14:00", verified: true },
     checkOut: { value: "12:00", verified: true },
@@ -74,7 +77,8 @@ export const hotel = {
     },
     spa: {
       name: "Avşar Spa",
-      services: ["hammam", "sauna", "massage"], // owner: several massage types
+      services: ["hammam", "sauna", "steamRoom", "massage"], // tourism licence: 1 hammam, 1 sauna, 1 steam room
+      massageRooms: 6, // tourism licence
       paid: true, // owner: all spa services are paid
       verified: true,
       photosAvailable: false, // owner: SPA exists, no original photos yet → neutral placeholder

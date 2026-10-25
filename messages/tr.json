@@ -198,7 +198,8 @@
     "reception": "Resepsiyon 7/24 açık",
     "license": "Kültür ve Turizm Bakanlığı Belge No: {number}",
     "rights": "© {year} {hotel}. Tüm hakları saklıdır.",
-    "languages": "Diller"
+    "languages": "Diller",
+    "verifyLicense": "Belgeyi doğrula"
   },
   "whatsapp": {
     "label": "WhatsApp ile yazın",
@@ -321,11 +322,12 @@
     },
     "spa": {
       "title": "SPA & Masaj",
-      "text": "Günün yorgunluğunu Avşar Spa’da geride bırakın: hamam, sauna ve farklı masaj seçenekleri. Bilgi ve randevu için bize yazabilirsiniz.",
+      "text": "Günün yorgunluğunu Avşar Spa’da geride bırakın: hamam, sauna, buhar odası ve {rooms} masaj salonunda farklı masaj seçenekleri. Bilgi ve randevu için bize yazabilirsiniz.",
       "contact": "Bilgi al",
       "services": {
         "hammam": "Hamam",
         "sauna": "Sauna",
+        "steamRoom": "Buhar odası",
         "massage": "Masaj çeşitleri"
       },
       "paid": "Tüm SPA hizmetleri ücretlidir."
