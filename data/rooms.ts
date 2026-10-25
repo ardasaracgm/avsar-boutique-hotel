@@ -25,6 +25,7 @@ export type Room = {
   unitCount?: number;
   amenities: readonly string[];
   featured: boolean; // shown on homepage (3 cards)
+  /** Display order: Superior → Deluxe → Comfort/Partial → Standard (owner, 25 Oct 2026). */
   sortOrder: number;
   verified: boolean;
   notes?: string;
@@ -61,7 +62,7 @@ export const rooms: readonly Room[] = [
     maxGuests: 2,
     amenities: baseAmenities,
     featured: false,
-    sortOrder: 1,
+    sortOrder: 7,
     verified: true,
   },
   {
@@ -73,7 +74,7 @@ export const rooms: readonly Room[] = [
     maxGuests: 2,
     amenities: baseAmenities,
     featured: true,
-    sortOrder: 2,
+    sortOrder: 6,
     verified: true,
   },
   {
@@ -84,7 +85,7 @@ export const rooms: readonly Room[] = [
     maxGuests: 2,
     amenities: baseAmenities,
     featured: false,
-    sortOrder: 3,
+    sortOrder: 5,
     verified: true,
     notes: "New type from ElektraWeb (not on the old site). Photos needed.",
   },
@@ -109,7 +110,7 @@ export const rooms: readonly Room[] = [
     maxGuests: 3,
     amenities: baseAmenities,
     featured: false,
-    sortOrder: 5,
+    sortOrder: 2,
     verified: true,
   },
   {
@@ -121,7 +122,7 @@ export const rooms: readonly Room[] = [
     maxGuests: 3, // ElektraWeb: max 3 incl. extra bed
     amenities: baseAmenities,
     featured: true,
-    sortOrder: 6,
+    sortOrder: 3,
     verified: true,
   },
   {
@@ -135,7 +136,7 @@ export const rooms: readonly Room[] = [
     unitCount: 2,
     amenities: baseAmenities,
     featured: true,
-    sortOrder: 7,
+    sortOrder: 1,
     verified: true, // owner: 2 rooms, 35 m², top floor, sea view
   },
 ] as const;
