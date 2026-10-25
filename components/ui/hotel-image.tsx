@@ -31,6 +31,7 @@ export function HotelImage({ item, slot, alt, sizes, className, tone, priority, 
       fill
       sizes={sizes}
       className={cn("object-cover", className)}
+      style={item.position ? { objectPosition: item.position } : undefined}
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : "auto"}
     />

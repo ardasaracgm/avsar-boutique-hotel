@@ -5,6 +5,10 @@ import { legacyRedirects } from "./data/legacy-redirects";
 const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  images: {
+    // AVIF where supported (smaller), WebP otherwise. Sources stay high-quality JPG.
+    formats: ["image/avif", "image/webp"],
+  },
   turbopack: {
     rules: {
       "*.css": {

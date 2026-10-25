@@ -11,11 +11,13 @@ export function HeroSection() {
     <section aria-labelledby="hero-title" className="relative">
       <div className="relative isolate flex min-h-[34rem] items-end overflow-hidden bg-navy text-ivory sm:min-h-[38rem] lg:min-h-[max(40rem,82svh)]">
         <HotelImage item={media.hero} slot="hero" alt="" sizes="100vw" tone="dark" priority placeholder="background" className="-z-10" />
-        {/* Legibility gradient over the photo (and a soft tone over the placeholder) */}
+        {/* Shading: darker on the text side and at the bottom (booking bar), light over the view */}
         <div
           aria-hidden
-          className="absolute inset-0 -z-10 bg-gradient-to-t from-navy/85 via-navy/35 to-navy/10 ltr:bg-gradient-to-tr rtl:bg-gradient-to-tl"
+          className="absolute inset-0 -z-10 bg-gradient-to-r from-navy/80 via-navy/40 to-navy/0 rtl:bg-gradient-to-l"
         />
+        <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-navy/75 via-navy/10 to-navy/0" />
+        <div aria-hidden className="absolute inset-x-0 top-0 -z-10 h-32 bg-gradient-to-b from-navy/35 to-navy/0" />
         <Container className="pb-32 lg:pb-40">
           <div className="max-w-2xl pt-28">
             <p className="text-eyebrow font-semibold uppercase text-sand">{t("eyebrow")}</p>
