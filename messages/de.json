@@ -283,7 +283,7 @@
       },
       "meals": {
         "title": "Mittag- und Abendessen",
-        "text": "Tagsüber und abends wählen Sie à la carte.",
+        "text": "Die Küche öffnet gegen 11:00 Uhr; die gesamte Karte gibt es bis 23:00 Uhr.",
         "tag": "Kostenpflichtig"
       },
       "music": {
@@ -298,9 +298,10 @@
       "locationValue": "Direkt gegenüber dem Hotel, auf den Klippen",
       "contact": "Informationen und Tischreservierung",
       "contactValue": "Per WhatsApp oder Telefon",
-      "hours": "Frühstückszeiten",
+      "hours": "Öffnungszeiten",
       "breakfastHours": "Frühstück {opens}–{closes}",
-      "tableValue": "Hotelgäste nennen zur Tischreservierung einfach ihre Zimmernummer."
+      "tableValue": "Hotelgäste nennen zur Tischreservierung einfach ihre Zimmernummer.",
+      "kitchenHours": "Küche {opens}–{closes}"
     },
     "ctaTitle": "Ein Aufenthalt mit Frühstück und Aussicht",
     "ctaText": "Frühstück ist in allen Zimmern inklusive. Wählen Sie Ihre Reisedaten und prüfen Sie die Verfügbarkeit.",

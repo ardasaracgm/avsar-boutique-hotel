@@ -30,6 +30,7 @@ export default async function DialoguePage() {
   const d = hotel.facilities.dialogue;
   const [mainPhoto = { src: null }, secondPhoto = { src: null }] = media.dialogue;
   const breakfastHours = t("dialoguePage.info.breakfastHours", d.breakfast.hours);
+  const kitchenHours = t("dialoguePage.info.kitchenHours", d.lunchDinner.hours);
 
   // schema.org: restaurant that is part of the hotel. Only verified facts.
   const jsonLd = {
@@ -47,6 +48,13 @@ export default async function DialoguePage() {
       addressCountry: hotel.address.country,
     },
     hasMenu: d.menuUrl,
+    // Daily hours (owner-confirmed): breakfast and kitchen.
+    openingHoursSpecification: [d.breakfast.hours, d.lunchDinner.hours].map((h) => ({
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: h.opens,
+      closes: h.closes,
+    })),
     acceptsReservations: true,
     containedInPlace: { "@id": `${hotel.siteUrl}/#hotel`, "@type": "Hotel", name: hotel.name },
     // TODO: openingHoursSpecification (lunch/dinner) once confirmed by the hotel.
@@ -114,6 +122,7 @@ export default async function DialoguePage() {
                   <p className="mt-6 text-[0.6875rem] font-semibold uppercase tracking-[0.18em] text-sand">
                     {t(`dialoguePage.day.${key}.tag`)}
                     {key === "breakfast" && <span className="text-ivory/70"> · {breakfastHours}</span>}
+                    {key === "meals" && <span className="text-ivory/70"> · {kitchenHours}</span>}
                   </p>
                 </Reveal>
               </li>
@@ -144,7 +153,11 @@ export default async function DialoguePage() {
                 <Clock3 aria-hidden className="mt-0.5 size-5 shrink-0 text-sand-deep" strokeWidth={1.5} />
                 <div>
                   <dt className="text-[0.6875rem] font-semibold uppercase tracking-[0.16em] text-ink-muted">{t("dialoguePage.info.hours")}</dt>
-                  <dd className="mt-1">{breakfastHours}</dd>
+                  <dd className="mt-1">
+                    {breakfastHours}
+                    <br />
+                    {kitchenHours}
+                  </dd>
                 </div>
               </div>
               <div className="flex gap-4">

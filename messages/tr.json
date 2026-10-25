@@ -283,7 +283,7 @@
       },
       "meals": {
         "title": "Öğle ve akşam yemeği",
-        "text": "Gün içinde ve akşam à la carte menüden seçim yapabilirsiniz.",
+        "text": "Mutfak 11:00 civarında açılır; 23:00’e kadar tüm menüden sipariş verebilirsiniz.",
         "tag": "Ücretli"
       },
       "music": {
@@ -298,9 +298,10 @@
       "locationValue": "Otelin hemen karşısında, falezlerin üzerinde",
       "contact": "Bilgi ve masa rezervasyonu",
       "contactValue": "WhatsApp veya telefonla ulaşın",
-      "hours": "Kahvaltı saatleri",
+      "hours": "Servis saatleri",
       "breakfastHours": "Kahvaltı {opens}–{closes}",
-      "tableValue": "Konaklayan misafirlerimiz masa ayırtmak için oda numaralarını belirtmeleri yeterli."
+      "tableValue": "Konaklayan misafirlerimiz masa ayırtmak için oda numaralarını belirtmeleri yeterli.",
+      "kitchenHours": "Mutfak {opens}–{closes}"
     },
     "ctaTitle": "Kahvaltısı manzaralı bir konaklama",
     "ctaText": "Tüm odalarımızda kahvaltı dahildir. Tarihlerinizi seçin, müsaitliği görün.",

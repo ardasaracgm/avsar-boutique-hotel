@@ -283,7 +283,7 @@
       },
       "meals": {
         "title": "Lunch and dinner",
-        "text": "Choose from the à la carte menu during the day and in the evening.",
+        "text": "The kitchen opens around 11:00 and the full menu is served until 23:00.",
         "tag": "Paid"
       },
       "music": {
@@ -298,9 +298,10 @@
       "locationValue": "Just across from the hotel, on the cliffs",
       "contact": "Information and table bookings",
       "contactValue": "Reach us by WhatsApp or phone",
-      "hours": "Breakfast hours",
+      "hours": "Opening hours",
       "breakfastHours": "Breakfast {opens}–{closes}",
-      "tableValue": "Hotel guests simply give their room number to book a table."
+      "tableValue": "Hotel guests simply give their room number to book a table.",
+      "kitchenHours": "Kitchen {opens}–{closes}"
     },
     "ctaTitle": "A stay with breakfast and a view",
     "ctaText": "Breakfast is included in every room. Choose your dates and check availability.",
