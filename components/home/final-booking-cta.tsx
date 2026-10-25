@@ -13,8 +13,10 @@ export function FinalBookingCTA() {
 
   return (
     <section aria-labelledby="cta-title" className="relative isolate overflow-hidden bg-navy py-24 text-center text-ivory sm:py-28 lg:py-36">
-      <HotelImage item={media.nightExterior} slot="hero" alt="" sizes="100vw" tone="dark" placeholder="background" className="-z-10" />
-      <div aria-hidden className="absolute inset-0 -z-10 bg-navy/70" />
+      <HotelImage item={media.ctaBanner} slot="hero" alt="" sizes="100vw" tone="dark" placeholder="background" className="-z-10" />
+      {/* Shading: even veil for the centred text, deeper at the edges */}
+      <div aria-hidden className="absolute inset-0 -z-10 bg-navy/55" />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgb(20_44_59/0.55)_100%)]" />
       <Container size="narrow">
         <Reveal>
           <h2 id="cta-title" className="text-h2">

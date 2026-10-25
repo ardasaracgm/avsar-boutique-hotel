@@ -38,8 +38,7 @@ export type GalleryItem = {
 const empty: MediaItem = { src: null };
 
 export const media = {
-  // Antalya coastline (cliffs + Beydağları) — provisional until an original hotel photo arrives.
-  hero: { src: "/images/hotel/hero-coast.jpg", width: 2244, height: 701, position: "72% 50%", provisional: true } as MediaItem,
+  hero: empty,
   intro: [empty, empty, empty],
   rooms: {
     "standard-land-view": [empty],
@@ -50,11 +49,16 @@ export const media = {
     "deluxe-sea-view": [empty],
     "superior-sea-view": [empty],
   } satisfies Record<RoomSlug, MediaItem[]>,
-  dialogue: [empty],
+  // Panoramic terrace view used as the homepage Dialogue banner and the Dialogue page header.
+  dialogue: [
+    { src: "/images/dialogue/terrace-sunset.jpg", width: 2244, height: 701, position: "62% 50%", provisional: true },
+  ] as MediaItem[],
   breakfast: empty,
   pool: empty,
   spa: empty, // owner: SPA exists, no original photos yet
   nightExterior: empty,
+  // Antalya coastline (cliffs + Beydağları) behind the closing booking call-to-action.
+  ctaBanner: { src: "/images/hotel/coast-cliffs.jpg", width: 2244, height: 701, position: "65% 50%", provisional: true } as MediaItem,
   // Add original photos here (order = display order). Homepage preview uses the first 5.
   gallery: [] as GalleryItem[],
 } as const;
