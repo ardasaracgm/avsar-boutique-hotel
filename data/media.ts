@@ -53,8 +53,9 @@ export const media = {
   // Homepage intro trio: 1 tall + 2 small.
   intro: [
     { src: "/images/hotel/sunset-dialogue-view.jpg", width: 1122, height: 1402 },
-    // Small source (460 px wide): fine in the small tile only; ask for the original for larger uses.
-    { src: "/images/hotel/pool-sunset.jpg", width: 460, height: 376 },
+    // Owner: AI-extended version of the real pool photo (night shot); small source (460 px).
+    // Replace with the original pool photo later.
+    { src: "/images/hotel/pool-sunset.jpg", width: 460, height: 376, provisional: true },
     { src: "/images/rooms/superior-sea-view/01.jpg", width: 1448, height: 1086 },
   ] as MediaItem[],
   // Room photos: first item = card image. Superior Sea View 01–04 are owner photos with light AI touch-ups (sky/light).
