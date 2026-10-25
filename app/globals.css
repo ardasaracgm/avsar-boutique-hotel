@@ -37,9 +37,20 @@
   html {
     -webkit-text-size-adjust: 100%;
     scroll-padding-top: 6rem; /* sticky header */
+    /* Mobile action bar (components/layout/mobile-action-bar.tsx) */
+    --mobile-bar-height: 4.25rem;
+    --mobile-bar-height-active: var(--mobile-bar-height);
+  }
+
+  @media (width >= 64rem) {
+    html {
+      --mobile-bar-height-active: 0px;
+    }
   }
 
   body {
+    /* keep the footer clear of the fixed mobile action bar */
+    padding-bottom: calc(var(--mobile-bar-height-active) + env(safe-area-inset-bottom));
     background: var(--color-ivory);
     color: var(--color-navy);
     font-family: var(--font-sans);

@@ -10,7 +10,8 @@
     "language": "Sprache wählen",
     "currentLanguage": "Aktuelle Sprache: {language}",
     "opensWhatsapp": "Startet einen WhatsApp-Chat",
-    "opensBooking": "Öffnet das Online-Buchungssystem"
+    "opensBooking": "Öffnet das Online-Buchungssystem",
+    "quickActions": "Schnellzugriff"
   },
   "nav": {
     "home": "Startseite",
@@ -116,9 +117,6 @@
       "text": "Aktuelle Preise und Verfügbarkeit finden Sie in unserem Online-Buchungssystem — oder schreiben Sie uns auf WhatsApp.",
       "book": "Jetzt buchen",
       "whatsapp": "Auf WhatsApp schreiben"
-    },
-    "sticky": {
-      "book": "Verfügbarkeit prüfen"
     }
   },
   "pages": {

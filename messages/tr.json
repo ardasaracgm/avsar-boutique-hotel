@@ -10,7 +10,8 @@
     "language": "Dil seçimi",
     "currentLanguage": "Seçili dil: {language}",
     "opensWhatsapp": "WhatsApp’ta yazışma başlatır",
-    "opensBooking": "Online rezervasyon sistemini açar"
+    "opensBooking": "Online rezervasyon sistemini açar",
+    "quickActions": "Hızlı erişim"
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -116,9 +117,6 @@
       "text": "Güncel fiyat ve müsaitlik için online rezervasyon sistemimizi kullanın ya da bize WhatsApp’tan yazın.",
       "book": "Rezervasyon Yap",
       "whatsapp": "WhatsApp’tan Yazın"
-    },
-    "sticky": {
-      "book": "Müsaitlik Sorgula"
     }
   },
   "pages": {

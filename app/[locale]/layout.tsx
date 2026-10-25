@@ -11,6 +11,7 @@ import { assetOrigin, isSiteLive } from "@/lib/site";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
+import { MobileActionBar } from "@/components/layout/mobile-action-bar";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -48,7 +49,7 @@ export const viewport: Viewport = {
 
 /**
  * Only the namespaces used by Client Components are sent to the browser
- * (Header, LanguageSwitcher, LocaleLinks, BookingBar, StickyBookBar, ContactForm).
+ * (Header, LanguageSwitcher, LocaleLinks, BookingBar, ContactForm).
  * Add a namespace here when a new Client Component calls useTranslations.
  */
 async function clientMessages() {
@@ -58,7 +59,7 @@ async function clientMessages() {
     nav: m.nav,
     languages: m.languages,
     whatsapp: m.whatsapp,
-    home: { booking: m.home.booking, sticky: m.home.sticky },
+    home: { booking: m.home.booking },
     contactPage: { form: m.contactPage.form },
   };
 }
@@ -81,6 +82,7 @@ export default async function LocaleLayout({ children }: { children: React.React
             </main>
             <Footer />
             <WhatsAppButton />
+            <MobileActionBar />
         </NextIntlClientProvider>
       </body>
     </html>

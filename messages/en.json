@@ -10,7 +10,8 @@
     "language": "Choose language",
     "currentLanguage": "Current language: {language}",
     "opensWhatsapp": "Starts a WhatsApp chat",
-    "opensBooking": "Opens the online booking system"
+    "opensBooking": "Opens the online booking system",
+    "quickActions": "Quick actions"
   },
   "nav": {
     "home": "Home",
@@ -116,9 +117,6 @@
       "text": "Use our online booking system for live rates and availability, or message us on WhatsApp.",
       "book": "Book Now",
       "whatsapp": "Message on WhatsApp"
-    },
-    "sticky": {
-      "book": "Check Availability"
     }
   },
   "pages": {

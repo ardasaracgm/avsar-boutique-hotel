@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 import { hotel } from "@/data/hotel";
 import { absoluteUrl, baseOpenGraph, localizedAlternates } from "@/lib/seo";
-import { StickyBookBar } from "@/components/booking/sticky-book-bar";
 import { DialogueSection } from "@/components/home/dialogue-section";
 import { ExperiencesSection } from "@/components/home/experiences-section";
 import { FeaturedRooms } from "@/components/home/featured-rooms";
@@ -36,7 +35,6 @@ export default async function HomePage() {
       <PhotoGalleryPreview />
       <TestimonialsSection />
       <FinalBookingCTA />
-      <StickyBookBar />
     </>
   );
 }
