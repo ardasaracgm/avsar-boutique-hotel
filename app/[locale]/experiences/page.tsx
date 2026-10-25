@@ -65,8 +65,8 @@ export default async function ExperiencesPage() {
         eyebrow={t("experiencesPage.eyebrow")}
         lead={t("experiencesPage.lead")}
         crumbs={[{ label: t("nav.experiences") }]}
-        image={media.pool}
-        slot="pool"
+        image={media.hero}
+        slot="hero"
       />
 
       <div className="py-6 lg:py-10">

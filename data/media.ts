@@ -53,9 +53,7 @@ export const media = {
   // Homepage intro trio: 1 tall + 2 small.
   intro: [
     { src: "/images/hotel/sunset-dialogue-view.jpg", width: 1122, height: 1402 },
-    // Owner: AI-extended version of the real pool photo (night shot); small source (460 px).
-    // Replace with the original pool photo later.
-    { src: "/images/hotel/pool-sunset.jpg", width: 460, height: 376, provisional: true },
+    { src: "/images/hotel/pool.jpg", width: 1086, height: 1448, position: "50% 62%" },
     { src: "/images/rooms/superior-sea-view/01.jpg", width: 1448, height: 1086 },
   ] as MediaItem[],
   // Room photos: first item = card image. Superior Sea View 01–04 are owner photos with light AI touch-ups (sky/light).
@@ -116,7 +114,7 @@ export const media = {
     { src: "/images/dialogue/breakfast-terrace.jpg", width: 2048, height: 1536 },
   ] as MediaItem[],
   breakfast: { src: "/images/dialogue/breakfast-terrace.jpg", width: 2048, height: 1536 } as MediaItem,
-  pool: empty,
+  pool: { src: "/images/hotel/pool.jpg", width: 1086, height: 1448, position: "50% 62%" } as MediaItem,
   spa: empty, // owner: SPA exists, no original photos yet
   nightExterior: empty,
   // Antalya coastline (cliffs + Beydağları) behind the closing booking call-to-action.
@@ -143,6 +141,7 @@ export const media = {
     { src: "/images/dialogue/aerial-cliff.jpg", width: 2048, height: 1534, category: "hotel" },
     { src: "/images/dialogue/aerial-top.jpg", width: 2048, height: 1533, category: "hotel" },
     { src: "/images/dialogue/aerial-hotel.jpg", width: 2048, height: 1533, category: "hotel" },
+    { src: "/images/hotel/pool.jpg", width: 1086, height: 1448, category: "pool" },
   ] as GalleryItem[],
 } as const;
 
