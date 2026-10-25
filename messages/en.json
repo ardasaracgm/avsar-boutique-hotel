@@ -158,25 +158,32 @@
   },
   "rooms": {
     "standard-land-view": {
-      "name": "Standard Land View Room"
+      "name": "Standard Land View Room",
+      "description": "At 15 m², the Standard Land View Room is a simple, comfortable choice for two. Breakfast is served with a sea view at Dialogue Coffee & Kitchen, just across the street."
     },
     "standard-sea-view": {
-      "name": "Standard Sea View Room"
+      "name": "Standard Sea View Room",
+      "description": "Wake up to the Mediterranean in the 20 m² Standard Sea View Room — ideal for two guests."
     },
     "partial-sea-view": {
-      "name": "Partial Sea View Room"
+      "name": "Partial Sea View Room",
+      "description": "With windows that take in part of the sea, this room offers a sea-view option for two guests."
     },
     "comfort-sea-view": {
-      "name": "Comfort Sea View Room"
+      "name": "Comfort Sea View Room",
+      "description": "The 20 m² Comfort Sea View Room pairs a sea view with space for up to three guests with an extra bed."
     },
     "superior-land-view": {
-      "name": "Superior Land View Room"
+      "name": "Superior Land View Room",
+      "description": "The spacious 25 m² Superior Land View Room welcomes up to three guests with an extra bed."
     },
     "deluxe-sea-view": {
-      "name": "Deluxe Sea View Room"
+      "name": "Deluxe Sea View Room",
+      "description": "The 30 m² Deluxe Sea View Room offers generous space and a view of the Mediterranean, for up to three guests with an extra bed."
     },
     "superior-sea-view": {
-      "name": "Superior Sea View Room"
+      "name": "Superior Sea View Room",
+      "description": "One of only two rooms on the hotel’s top floor, the 35 m² Superior Sea View Room is our largest sea-view room — for up to three guests with an extra bed."
     }
   },
   "footer": {
@@ -218,5 +225,47 @@
     "en": "English",
     "de": "Deutsch",
     "ru": "Русский"
+  },
+  "roomsPage": {
+    "eyebrow": "Stay",
+    "intro": "Breakfast is included in all seven of our sea- and land-view room types. Choose the room that suits you and see availability instantly.",
+    "policiesTitle": "Good to know",
+    "policies": {
+      "checkIn": "Check-in from {time}",
+      "checkOut": "Check-out until {time}",
+      "breakfast": "Breakfast included in every room",
+      "capacity": "Capacities are the maximum number of guests, extra bed included",
+      "balcony": "Balconies are available in corner rooms only",
+      "children": "You can add children on the booking page"
+    },
+    "bookTitle": "Choose your dates"
+  },
+  "roomDetail": {
+    "breadcrumb": "Breadcrumb",
+    "facts": {
+      "size": "Size",
+      "guests": "Capacity",
+      "view": "View",
+      "floor": "Location"
+    },
+    "floor": {
+      "topFloor": "Top floor · {count} rooms"
+    },
+    "about": "About the room",
+    "amenities": "In the room",
+    "bookTitle": "Availability for this room",
+    "bookNote": "Live rates and availability are shown in the booking system.",
+    "otherRooms": "Other rooms",
+    "sizePending": "Coming soon",
+    "amenity": {
+      "wifi": "Free Wi-Fi",
+      "airConditioning": "Air conditioning",
+      "flatTv": "Flat-screen TV",
+      "minibar": "Minibar",
+      "safe": "In-room safe",
+      "breakfastIncluded": "Breakfast included",
+      "privateBathroom": "Private bathroom",
+      "dailyHousekeeping": "Daily housekeeping"
+    }
   }
 }

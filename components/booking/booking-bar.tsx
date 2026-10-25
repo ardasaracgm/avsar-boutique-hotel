@@ -20,7 +20,16 @@ const addDays = (iso: string, days: number) => {
  * Availability search. Sends dates, adults, language and currency to the ElektraWeb engine
  * through `buildBookingUrl()`. Without JS the form still opens the engine (plain link).
  */
-export function BookingBar({ className, id = "booking-bar" }: { className?: string; id?: string }) {
+export function BookingBar({
+  className,
+  id = "booking-bar",
+  layout = "bar",
+}: {
+  className?: string;
+  id?: string;
+  /** "bar": horizontal on desktop (hero). "stacked": single column (sidebars). */
+  layout?: "bar" | "stacked";
+}) {
   const t = useTranslations("home.booking");
   const locale = useLocale();
   const uid = useId();
@@ -78,7 +87,12 @@ export function BookingBar({ className, id = "booking-bar" }: { className?: stri
       {[...fallback.searchParams].map(([name, value]) => (
         <input key={name} type="hidden" name={name} value={value} />
       ))}
-      <div className="grid divide-y divide-navy/10 lg:grid-cols-[1fr_1fr_0.9fr_auto] lg:divide-x lg:divide-y-0 rtl:lg:divide-x-reverse">
+      <div
+        className={cn(
+          "grid divide-y divide-navy/10",
+          layout === "bar" && "lg:grid-cols-[1fr_1fr_0.9fr_auto] lg:divide-x lg:divide-y-0 rtl:lg:divide-x-reverse",
+        )}
+      >
         <div className={field}>
           <CalendarDays aria-hidden className="size-5 shrink-0 text-sand-deep" strokeWidth={1.5} />
           <div className="min-w-0 flex-1">
@@ -139,10 +153,10 @@ export function BookingBar({ className, id = "booking-bar" }: { className?: stri
           </div>
         </div>
 
-        <div className="p-3 lg:p-2.5">
+        <div className={layout === "bar" ? "p-3 lg:p-2.5" : "p-3"}>
           <button
             type="submit"
-            className="inline-flex min-h-12 w-full items-center justify-center gap-2.5 bg-navy px-6 text-xs font-semibold uppercase tracking-[0.18em] text-ivory transition-colors hover:bg-navy-soft lg:h-full lg:min-h-14 rtl:[&>svg]:-scale-x-100"
+            className={cn("inline-flex min-h-12 w-full items-center justify-center gap-2.5 bg-navy px-6 text-xs font-semibold uppercase tracking-[0.18em] text-ivory transition-colors hover:bg-navy-soft rtl:[&>svg]:-scale-x-100", layout === "bar" && "lg:h-full lg:min-h-14")}
           >
             {t("submit")}
             <ArrowRight aria-hidden className="size-4" strokeWidth={1.5} />

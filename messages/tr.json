@@ -158,25 +158,32 @@
   },
   "rooms": {
     "standard-land-view": {
-      "name": "Standart Kara Manzaralı Oda"
+      "name": "Standart Kara Manzaralı Oda",
+      "description": "15 m²’lik Standart Kara Manzaralı Oda, iki kişilik konaklamalar için sade ve konforlu bir seçenek. Kahvaltı, hemen karşıdaki Dialogue Coffee & Kitchen’da deniz manzarasına karşı servis edilir."
     },
     "standard-sea-view": {
-      "name": "Standart Deniz Manzaralı Oda"
+      "name": "Standart Deniz Manzaralı Oda",
+      "description": "20 m²’lik Standart Deniz Manzaralı Oda’da güne Akdeniz manzarasıyla uyanın. İki kişilik konaklamalar için ideal."
     },
     "partial-sea-view": {
-      "name": "Kısmi Deniz Manzaralı Oda"
+      "name": "Kısmi Deniz Manzaralı Oda",
+      "description": "Pencerelerinden denizin bir bölümünü gören bu oda, iki kişilik konaklamalar için deniz manzaralı bir seçenek sunar."
     },
     "comfort-sea-view": {
-      "name": "Comfort Deniz Manzaralı Oda"
+      "name": "Comfort Deniz Manzaralı Oda",
+      "description": "20 m²’lik Comfort Deniz Manzaralı Oda, deniz manzarasıyla birlikte ek yatakla üç kişiye kadar konaklama imkânı sunar."
     },
     "superior-land-view": {
-      "name": "Superior Kara Manzaralı Oda"
+      "name": "Superior Kara Manzaralı Oda",
+      "description": "25 m²’lik Superior Kara Manzaralı Oda, ferah yaşam alanıyla ek yatakla üç kişiye kadar misafir ağırlar."
     },
     "deluxe-sea-view": {
-      "name": "Deluxe Deniz Manzaralı Oda"
+      "name": "Deluxe Deniz Manzaralı Oda",
+      "description": "30 m²’lik Deluxe Deniz Manzaralı Oda’da geniş bir alan ve Akdeniz manzarası sizi bekliyor; ek yatakla üç kişiye kadar uygundur."
     },
     "superior-sea-view": {
-      "name": "Superior Deniz Manzaralı Oda"
+      "name": "Superior Deniz Manzaralı Oda",
+      "description": "Otelin en üst katındaki yalnızca iki odadan biri: 35 m²’lik Superior Deniz Manzaralı Oda, en geniş deniz manzaralı odamız. Ek yatakla üç kişiye kadar uygundur."
     }
   },
   "footer": {
@@ -218,5 +225,47 @@
     "en": "English",
     "de": "Deutsch",
     "ru": "Русский"
+  },
+  "roomsPage": {
+    "eyebrow": "Konaklama",
+    "intro": "Deniz ya da kara manzaralı yedi oda tipimizin tümünde kahvaltı dahildir. Size en uygun odayı seçin, müsaitliği anında görün.",
+    "policiesTitle": "Bilmeniz gerekenler",
+    "policies": {
+      "checkIn": "Giriş saati {time}",
+      "checkOut": "Çıkış saati {time}",
+      "breakfast": "Tüm odalarda kahvaltı dahil",
+      "capacity": "Kapasiteler ek yatak dahil en fazla kişi sayısıdır",
+      "balcony": "Balkon yalnızca köşe odalarda bulunur",
+      "children": "Çocukları rezervasyon ekranında ekleyebilirsiniz"
+    },
+    "bookTitle": "Tarihlerinizi seçin"
+  },
+  "roomDetail": {
+    "breadcrumb": "Sayfa yolu",
+    "facts": {
+      "size": "Büyüklük",
+      "guests": "Kapasite",
+      "view": "Manzara",
+      "floor": "Konum"
+    },
+    "floor": {
+      "topFloor": "En üst kat · {count} oda"
+    },
+    "about": "Oda hakkında",
+    "amenities": "Odada neler var?",
+    "bookTitle": "Bu oda için müsaitlik",
+    "bookNote": "Fiyatlar ve müsaitlik rezervasyon sisteminde güncel olarak gösterilir.",
+    "otherRooms": "Diğer odalar",
+    "sizePending": "Bilgi yakında",
+    "amenity": {
+      "wifi": "Ücretsiz Wi-Fi",
+      "airConditioning": "Klima",
+      "flatTv": "Düz ekran TV",
+      "minibar": "Minibar",
+      "safe": "Kasa",
+      "breakfastIncluded": "Kahvaltı dahil",
+      "privateBathroom": "Özel banyo",
+      "dailyHousekeeping": "Günlük oda temizliği"
+    }
   }
 }

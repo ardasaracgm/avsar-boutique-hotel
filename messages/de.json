@@ -158,25 +158,32 @@
   },
   "rooms": {
     "standard-land-view": {
-      "name": "Standardzimmer mit Landblick"
+      "name": "Standardzimmer mit Landblick",
+      "description": "Das 15 m² große Standardzimmer mit Landblick ist eine schlichte, komfortable Wahl für zwei Personen. Das Frühstück wird mit Meerblick im Dialogue Coffee & Kitchen direkt gegenüber serviert."
     },
     "standard-sea-view": {
-      "name": "Standardzimmer mit Meerblick"
+      "name": "Standardzimmer mit Meerblick",
+      "description": "Im 20 m² großen Standardzimmer mit Meerblick wachen Sie mit Blick aufs Mittelmeer auf — ideal für zwei Personen."
     },
     "partial-sea-view": {
-      "name": "Zimmer mit seitlichem Meerblick"
+      "name": "Zimmer mit seitlichem Meerblick",
+      "description": "Mit Fenstern, die einen Teil des Meeres einfangen, bietet dieses Zimmer zwei Personen eine Option mit Meerblick."
     },
     "comfort-sea-view": {
-      "name": "Comfort-Zimmer mit Meerblick"
+      "name": "Comfort-Zimmer mit Meerblick",
+      "description": "Das 20 m² große Comfort-Zimmer mit Meerblick bietet mit Zustellbett Platz für bis zu drei Personen."
     },
     "superior-land-view": {
-      "name": "Superior-Zimmer mit Landblick"
+      "name": "Superior-Zimmer mit Landblick",
+      "description": "Das geräumige, 25 m² große Superior-Zimmer mit Landblick bietet mit Zustellbett Platz für bis zu drei Personen."
     },
     "deluxe-sea-view": {
-      "name": "Deluxe-Zimmer mit Meerblick"
+      "name": "Deluxe-Zimmer mit Meerblick",
+      "description": "Das 30 m² große Deluxe-Zimmer mit Meerblick bietet viel Raum und Blick aufs Mittelmeer — mit Zustellbett für bis zu drei Personen."
     },
     "superior-sea-view": {
-      "name": "Superior-Zimmer mit Meerblick"
+      "name": "Superior-Zimmer mit Meerblick",
+      "description": "Eines von nur zwei Zimmern im obersten Stockwerk: Das 35 m² große Superior-Zimmer mit Meerblick ist unser größtes Zimmer mit Meerblick — mit Zustellbett für bis zu drei Personen."
     }
   },
   "footer": {
@@ -218,5 +225,47 @@
     "en": "English",
     "de": "Deutsch",
     "ru": "Русский"
+  },
+  "roomsPage": {
+    "eyebrow": "Übernachten",
+    "intro": "Frühstück ist in allen sieben Zimmertypen mit Meer- oder Landblick inbegriffen. Wählen Sie Ihr Zimmer und sehen Sie die Verfügbarkeit sofort.",
+    "policiesTitle": "Gut zu wissen",
+    "policies": {
+      "checkIn": "Check-in ab {time}",
+      "checkOut": "Check-out bis {time}",
+      "breakfast": "Frühstück in allen Zimmern inklusive",
+      "capacity": "Kapazitäten sind die maximale Personenzahl inklusive Zustellbett",
+      "balcony": "Balkone gibt es nur in den Eckzimmern",
+      "children": "Kinder können Sie auf der Buchungsseite hinzufügen"
+    },
+    "bookTitle": "Reisedaten wählen"
+  },
+  "roomDetail": {
+    "breadcrumb": "Brotkrumennavigation",
+    "facts": {
+      "size": "Größe",
+      "guests": "Belegung",
+      "view": "Aussicht",
+      "floor": "Lage"
+    },
+    "floor": {
+      "topFloor": "Oberstes Stockwerk · {count} Zimmer"
+    },
+    "about": "Über das Zimmer",
+    "amenities": "Ausstattung",
+    "bookTitle": "Verfügbarkeit für dieses Zimmer",
+    "bookNote": "Aktuelle Preise und Verfügbarkeit sehen Sie im Buchungssystem.",
+    "otherRooms": "Weitere Zimmer",
+    "sizePending": "Folgt in Kürze",
+    "amenity": {
+      "wifi": "Kostenloses WLAN",
+      "airConditioning": "Klimaanlage",
+      "flatTv": "Flachbild-TV",
+      "minibar": "Minibar",
+      "safe": "Zimmersafe",
+      "breakfastIncluded": "Frühstück inklusive",
+      "privateBathroom": "Eigenes Bad",
+      "dailyHousekeeping": "Tägliche Zimmerreinigung"
+    }
   }
 }
