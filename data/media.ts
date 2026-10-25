@@ -48,7 +48,7 @@ export const media = {
     height: 941,
     position: "50% 45%",
     positionMobile: "20% 45%",
-    provisional: true, // AI-assisted image (ChatGPT) — replace with an original drone photo when available
+    // Owner: composite of two real drone shots (confirmed 25 Oct 2026).
   } as MediaItem,
   intro: [empty, empty, empty],
   rooms: {
