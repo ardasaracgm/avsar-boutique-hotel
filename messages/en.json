@@ -236,7 +236,8 @@
       "breakfast": "Breakfast included in every room",
       "capacity": "Capacities are the maximum number of guests, extra bed included",
       "balcony": "Balconies are available in corner rooms only",
-      "children": "You can add children on the booking page"
+      "children": "You can add children on the booking page",
+      "beds": "Double or twin beds are arranged on request, subject to availability"
     },
     "bookTitle": "Choose your dates"
   },

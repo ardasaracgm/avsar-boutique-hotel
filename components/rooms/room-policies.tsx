@@ -1,4 +1,4 @@
-import { BedSingle, Baby, Clock3, Coffee, DoorOpen, Sun } from "lucide-react";
+import { BedDouble, BedSingle, Baby, Clock3, Coffee, DoorOpen, Sun } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { hotel } from "@/data/hotel";
 import { cn } from "@/lib/cn";
@@ -11,6 +11,7 @@ export function RoomPolicies({ className }: { className?: string }) {
     { Icon: DoorOpen, text: t("policies.checkOut", { time: hotel.property.checkOut.value }) },
     { Icon: Coffee, text: t("policies.breakfast") },
     { Icon: BedSingle, text: t("policies.capacity") },
+    { Icon: BedDouble, text: t("policies.beds") },
     { Icon: Sun, text: t("policies.balcony") },
     { Icon: Baby, text: t("policies.children") },
   ];

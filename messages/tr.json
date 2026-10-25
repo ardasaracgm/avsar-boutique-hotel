@@ -236,7 +236,8 @@
       "breakfast": "Tüm odalarda kahvaltı dahil",
       "capacity": "Kapasiteler ek yatak dahil en fazla kişi sayısıdır",
       "balcony": "Balkon yalnızca köşe odalarda bulunur",
-      "children": "Çocukları rezervasyon ekranında ekleyebilirsiniz"
+      "children": "Çocukları rezervasyon ekranında ekleyebilirsiniz",
+      "beds": "Yatak düzeni (birleşik ya da ayrı) talebinize göre, müsaitlik durumunda hazırlanır"
     },
     "bookTitle": "Tarihlerinizi seçin"
   },

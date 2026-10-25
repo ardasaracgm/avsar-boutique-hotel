@@ -34,9 +34,12 @@ export type Room = {
 export const roomPolicies = {
   kitchen: false, // no room has a kitchen
   balcony: "cornerRoomsOnly" as const,
+  /** Owner: double or twin set up on request, subject to availability. */
+  bedSetup: "onRequest" as const,
   verified: true,
 } as const;
 
+// Owner-confirmed (25 Oct 2026) for every room type.
 const baseAmenities = [
   "wifi",
   "airConditioning",
@@ -77,13 +80,13 @@ export const rooms: readonly Room[] = [
     slug: "partial-sea-view",
     elektraName: "Partial Sea View Room",
     view: "partialSea",
-    sizeM2: null, // TODO: confirm size with the hotel
+    sizeM2: 25, // owner, 25 Oct 2026
     maxGuests: 2,
     amenities: baseAmenities,
     featured: false,
     sortOrder: 3,
-    verified: false,
-    notes: "New type from ElektraWeb (not on the old site). Size and photos needed.",
+    verified: true,
+    notes: "New type from ElektraWeb (not on the old site). Photos needed.",
   },
   {
     slug: "comfort-sea-view",
