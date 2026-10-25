@@ -50,7 +50,13 @@ export const media = {
     positionMobile: "20% 45%",
     // Owner: composite of two real drone shots (confirmed 25 Oct 2026).
   } as MediaItem,
-  intro: [empty, empty, empty],
+  // Homepage intro trio: 1 tall + 2 small.
+  intro: [
+    { src: "/images/hotel/sunset-dialogue-view.jpg", width: 1122, height: 1402 },
+    // Small source (460 px wide): fine in the small tile only; ask for the original for larger uses.
+    { src: "/images/hotel/pool-sunset.jpg", width: 460, height: 376 },
+    { src: "/images/rooms/superior-sea-view/01.jpg", width: 1448, height: 1086 },
+  ] as MediaItem[],
   // Room photos: first item = card image. Superior Sea View 01–04 are owner photos with light AI touch-ups (sky/light).
   rooms: {
     "standard-land-view": [
