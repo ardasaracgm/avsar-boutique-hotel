@@ -16,7 +16,7 @@ export async function seoMetadata({ href, title, description }: { href: Href; ti
     description,
     alternates: localizedAlternates(href, locale),
     openGraph: { ...baseOpenGraph(locale), title: `${title} | ${hotel.name}`, description, url },
-    twitter: { card: "summary_large_image", title: `${title} | ${hotel.name}`, description, images: ["/og.png"] },
+    twitter: { card: "summary_large_image", title: `${title} | ${hotel.name}`, description, images: ["/og.jpg"] },
   };
 }
 

@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     alternates: localizedAlternates("/", locale),
     openGraph: { ...baseOpenGraph(locale), title, description: t("description"), url: absoluteUrl("/", locale) },
-    twitter: { card: "summary_large_image", title, description: t("description"), images: ["/og.png"] },
+    twitter: { card: "summary_large_image", title, description: t("description"), images: ["/og.jpg"] },
   };
 }
 

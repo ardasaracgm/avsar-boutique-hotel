@@ -35,7 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
     // Pre-launch: keep every page out of search engines until NEXT_PUBLIC_SITE_LIVE=true.
     robots: isSiteLive ? undefined : { index: false, follow: false },
     openGraph: baseOpenGraph(locale),
-    twitter: { card: "summary_large_image", images: ["/og.png"] },
+    twitter: { card: "summary_large_image", images: ["/og.jpg"] },
     formatDetection: { telephone: false },
   };
 }

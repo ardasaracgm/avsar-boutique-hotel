@@ -2,7 +2,7 @@
 
 ## Before switching the domain
 - [ ] **Provisional images**: every `media.ts` item with `provisional: true` (currently the Dialogue terrace banner and the closing CTA coastline) must be an original, confirmed photo before launch.
-- [ ] **Photos**: originals in `public/images/…`, slots filled in `data/media.ts` (hero, intro, rooms ×7, Dialogue, breakfast, pool, spa, night exterior, gallery). Replace `public/og.png` with a hero crop (1200×630).
+- [ ] **Photos**: originals in `public/images/…`, slots filled in `data/media.ts` (hero, intro, rooms ×7, Dialogue, breakfast, pool, spa, night exterior, gallery). Re-crop `public/og.jpg` (1200×630) if the hero changes.
 - [ ] **Logo**: replace the text wordmark (`components/layout/wordmark.tsx`) and icons (`app/icon.png`, `app/apple-icon.png`, `app/favicon.ico`) if the hotel has an official logo.
 - [x] **Company title** added (from the tourism licence). [ ] **Legal**: have KVKK / privacy / terms texts reviewed by the hotel's legal advisor.
 - [ ] **Vercel plan**: move the project to a Pro account/team (Hobby is non-commercial).

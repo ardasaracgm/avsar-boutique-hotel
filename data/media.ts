@@ -11,8 +11,10 @@ export type MediaItem = {
   height?: number;
   /** Translation key under `media.alt.*` once real photos exist. */
   altKey?: string;
-  /** CSS object-position for cropping (e.g. "70% 50%" keeps the right side in view on phones). */
+  /** CSS object-position for cropping (e.g. "70% 50%"). Applies on desktop, and on phones unless positionMobile is set. */
   position?: string;
+  /** object-position below the lg breakpoint (portrait crops). */
+  positionMobile?: string;
   /**
    * true = atmospheric image that does not show the hotel itself (or not yet confirmed as an
    * original photo). Must be replaced with an original photo before launch — see docs/LAUNCH.md.
@@ -38,7 +40,16 @@ export type GalleryItem = {
 const empty: MediaItem = { src: null };
 
 export const media = {
-  hero: empty,
+  // Aerial: hotel + Dialogue on the left, sea on the right (text sits over the sea on desktop).
+  // Phones: keep the hotel building in frame. Do not mirror/rotate.
+  hero: {
+    src: "/images/hotel/hero-aerial.jpg",
+    width: 1672,
+    height: 941,
+    position: "50% 45%",
+    positionMobile: "20% 45%",
+    provisional: true, // AI-assisted image (ChatGPT) — replace with an original drone photo when available
+  } as MediaItem,
   intro: [empty, empty, empty],
   rooms: {
     "standard-land-view": [empty],

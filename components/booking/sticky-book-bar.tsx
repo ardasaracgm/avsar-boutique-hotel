@@ -22,23 +22,25 @@ export function StickyBookBar({ watchId = "booking-bar" }: { watchId?: string })
     const footer = document.querySelector("footer");
     if (!target) return;
 
-    let pastForm = false;
-    let footerInView = false;
-    const update = () => setVisible(pastForm && !footerInView);
-
-    const formObserver = new IntersectionObserver(([e]) => {
-      pastForm = !e.isIntersecting && e.boundingClientRect.top < 0;
-      update();
-    });
-    const footerObserver = new IntersectionObserver(([e]) => {
-      footerInView = e.isIntersecting;
-      update();
-    });
-    formObserver.observe(target);
-    if (footer) footerObserver.observe(footer);
+    // Scroll-position check (not IntersectionObserver): a fast fling can jump over the form
+    // without it ever "intersecting", which would leave the bar hidden.
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const pastForm = target.getBoundingClientRect().bottom < 0;
+      const footerInView = footer ? footer.getBoundingClientRect().top < window.innerHeight : false;
+      setVisible(pastForm && !footerInView);
+    };
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
     return () => {
-      formObserver.disconnect();
-      footerObserver.disconnect();
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      if (frame) cancelAnimationFrame(frame);
     };
   }, [watchId]);
 

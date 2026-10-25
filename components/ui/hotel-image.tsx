@@ -30,8 +30,13 @@ export function HotelImage({ item, slot, alt, sizes, className, tone, priority, 
       alt={alt}
       fill
       sizes={sizes}
-      className={cn("object-cover", className)}
-      style={item.position ? { objectPosition: item.position } : undefined}
+      className={cn("object-cover [object-position:var(--pos-sm,var(--pos,50%_50%))] lg:[object-position:var(--pos,50%_50%)]", className)}
+      style={
+        {
+          ...(item.position ? { "--pos": item.position } : {}),
+          ...(item.positionMobile ? { "--pos-sm": item.positionMobile } : {}),
+        } as React.CSSProperties
+      }
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : "auto"}
     />

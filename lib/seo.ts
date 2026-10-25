@@ -11,14 +11,14 @@ export const absoluteUrl = (href: Href, locale: Locale) => `${siteUrl}${getPathn
 /**
  * Open Graph fields shared by every page. Pages that set `openGraph` replace the layout's
  * object entirely (shallow merge), so they must spread this in.
- * TODO: swap /og.png for a real hero photo crop (1200×630) once photos exist.
+ * /og.jpg is a 1200×630 crop of the hero image.
  */
 export function baseOpenGraph(locale: Locale) {
   return {
     type: "website" as const,
     siteName: hotel.name,
     locale: localeTag[locale].replace("-", "_"),
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: `${hotel.name} — Lara, Antalya` }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: `${hotel.name} — Lara, Antalya` }],
   };
 }
 
