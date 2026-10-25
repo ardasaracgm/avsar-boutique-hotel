@@ -52,7 +52,7 @@ export const hotel = {
   property: {
     totalRooms: { value: 36, verified: true },
     totalBeds: { value: 78, verified: false, note: "Old About page" },
-    roomTypeCount: 6,
+    roomTypeCount: 7, // ElektraWeb room list (25 Oct 2026)
     checkIn: { value: "14:00", verified: true },
     checkOut: { value: "12:00", verified: true },
     boardType: "bed-and-breakfast",

@@ -59,9 +59,10 @@
       "title": "A room for every kind of stay",
       "all": "All Rooms",
       "size": "{size} m²",
-      "guests": "{count} guests",
+      "guests": "Up to {count} guests",
       "view": {
         "sea": "Sea view",
+        "partialSea": "Partial sea view",
         "land": "Land view"
       },
       "details": "View room"
@@ -157,22 +158,25 @@
   },
   "rooms": {
     "standard-land-view": {
-      "name": "Standard Room, Land View"
+      "name": "Standard Land View Room"
     },
     "standard-sea-view": {
-      "name": "Standard Room, Sea View"
+      "name": "Standard Sea View Room"
+    },
+    "partial-sea-view": {
+      "name": "Partial Sea View Room"
     },
     "comfort-sea-view": {
-      "name": "Comfort Room, Sea View"
+      "name": "Comfort Sea View Room"
     },
     "superior-land-view": {
-      "name": "Superior Room, Land View"
+      "name": "Superior Land View Room"
     },
     "deluxe-sea-view": {
-      "name": "Deluxe Room, Sea View"
+      "name": "Deluxe Sea View Room"
     },
     "superior-sea-view": {
-      "name": "Superior Room, Sea View"
+      "name": "Superior Sea View Room"
     }
   },
   "footer": {

@@ -22,8 +22,8 @@ export const legacyRedirects: { source: string; destination: string }[] = [
   { source: "/avsar_butik_hotel_deneyimi", destination: "/tr/hakkimizda" },
   { source: "/avsar_butik_hotel_gastronomi", destination: "/tr/dialogue" },
   { source: "/yerel_cevre_gezi_rotalari", destination: "/tr/antalya-rehberi" },
-  ...rooms.map((r) => ({
-    source: r.legacyPath.replace(/\/$/, ""),
+  ...rooms.flatMap((r) => (r.legacyPath ? [r] : [])).map((r) => ({
+    source: r.legacyPath!.replace(/\/$/, ""),
     destination: `/tr/odalar/${r.slug}`,
   })),
 ];

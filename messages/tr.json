@@ -59,9 +59,10 @@
       "title": "Her konaklamaya özel bir oda",
       "all": "Tüm Odalar",
       "size": "{size} m²",
-      "guests": "{count} kişi",
+      "guests": "En fazla {count} kişi",
       "view": {
         "sea": "Deniz manzarası",
+        "partialSea": "Kısmi deniz manzarası",
         "land": "Kara manzarası"
       },
       "details": "Odayı incele"
@@ -161,6 +162,9 @@
     },
     "standard-sea-view": {
       "name": "Standart Deniz Manzaralı Oda"
+    },
+    "partial-sea-view": {
+      "name": "Kısmi Deniz Manzaralı Oda"
     },
     "comfort-sea-view": {
       "name": "Comfort Deniz Manzaralı Oda"

@@ -14,7 +14,7 @@ function RoomCard({ room }: { room: Room }) {
   const t = useTranslations();
   const name = t(`rooms.${room.slug as RoomMessageSlug}.name`);
   const photo = media.rooms[room.slug as keyof typeof media.rooms]?.[0] ?? { src: null };
-  const ViewIcon = room.view === "sea" ? Waves : Mountain;
+  const ViewIcon = room.view === "land" ? Mountain : Waves;
 
   return (
     <article className="group relative flex h-full flex-col bg-white">
@@ -37,13 +37,15 @@ function RoomCard({ room }: { room: Room }) {
           </Link>
         </h3>
         <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-muted">
-          <li className="flex items-center gap-1.5">
-            <Maximize2 aria-hidden className="size-4 text-sand-deep" strokeWidth={1.5} />
-            {t("home.rooms.size", { size: room.sizeM2 })}
-          </li>
+          {room.sizeM2 !== null && (
+            <li className="flex items-center gap-1.5">
+              <Maximize2 aria-hidden className="size-4 text-sand-deep" strokeWidth={1.5} />
+              {t("home.rooms.size", { size: room.sizeM2 })}
+            </li>
+          )}
           <li className="flex items-center gap-1.5">
             <Users aria-hidden className="size-4 text-sand-deep" strokeWidth={1.5} />
-            {t("home.rooms.guests", { count: room.maxGuestsNote ?? room.maxGuests })}
+            {t("home.rooms.guests", { count: room.maxGuests })}
           </li>
           <li className="flex items-center gap-1.5">
             <ViewIcon aria-hidden className="size-4 text-sand-deep" strokeWidth={1.5} />

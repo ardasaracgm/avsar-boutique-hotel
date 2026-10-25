@@ -23,6 +23,7 @@ export const media = {
   rooms: {
     "standard-land-view": [empty],
     "standard-sea-view": [empty],
+    "partial-sea-view": [empty],
     "comfort-sea-view": [empty],
     "superior-land-view": [empty],
     "deluxe-sea-view": [empty],

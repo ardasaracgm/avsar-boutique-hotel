@@ -59,9 +59,10 @@
       "title": "Das passende Zimmer für jeden Aufenthalt",
       "all": "Alle Zimmer",
       "size": "{size} m²",
-      "guests": "{count} Personen",
+      "guests": "Bis zu {count} Personen",
       "view": {
         "sea": "Meerblick",
+        "partialSea": "Seitlicher Meerblick",
         "land": "Landblick"
       },
       "details": "Zimmer ansehen"
@@ -161,6 +162,9 @@
     },
     "standard-sea-view": {
       "name": "Standardzimmer mit Meerblick"
+    },
+    "partial-sea-view": {
+      "name": "Zimmer mit seitlichem Meerblick"
     },
     "comfort-sea-view": {
       "name": "Comfort-Zimmer mit Meerblick"
