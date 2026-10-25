@@ -374,5 +374,109 @@
     "counter": "{current} / {total}",
     "emptyTitle": "Fotos folgen in Kürze",
     "emptyText": "Aktuelle Fotos des Hotels finden Sie hier in Kürze. Bis dahin können Sie die Verfügbarkeit prüfen oder uns auf WhatsApp schreiben."
+  },
+  "aboutPage": {
+    "eyebrow": "Über uns",
+    "lead": "Ein herzliches Boutiquehotel in Şirinyalı mit Blick auf das Mittelmeer und das Taurusgebirge.",
+    "storyTitle": "Ein Boutiquehotel am Meer in Lara",
+    "story1": "Das Avşar Boutique Hotel ist ein Boutiquehotel mit 36 Zimmern in Şirinyalı, im Stadtteil Lara von Antalya. Es verbindet den Blick auf das Meer und das Taurusgebirge mit einer ruhigen Lage nahe dem Stadtleben.",
+    "story2": "Der Tag beginnt mit Frühstück im Dialogue Coffee & Kitchen auf den Klippen direkt gegenüber; tagsüber erfrischt der Außenpool, abends entspannt das Spa. Die alte Lara-Straße und Terra City sind nur wenige Schritte entfernt.",
+    "whyTitle": "Warum Avşar?",
+    "why": {
+      "view": {
+        "title": "Aussicht",
+        "text": "Zimmer mit Blick aufs Meer und das Taurusgebirge, Frühstück mit Aussicht."
+      },
+      "breakfast": {
+        "title": "Frühstück inklusive",
+        "text": "Frühstück ist in allen Zimmern inbegriffen."
+      },
+      "location": {
+        "title": "Lage",
+        "text": "In Lara, nahe der alten Lara-Straße und Terra City."
+      },
+      "relax": {
+        "title": "Entspannung",
+        "text": "Außenpool, Hamam, Sauna und verschiedene Massagen."
+      }
+    },
+    "license": "Vom Ministerium für Kultur und Tourismus lizenziert · Lizenz-Nr. {number}",
+    "ctaRooms": "Zimmer ansehen"
+  },
+  "guidePage": {
+    "eyebrow": "Entdecken",
+    "lead": "Von den Stränden Laras über die Gassen von Kaleiçi bis zu antiken Städten — Ziele, die Sie vom Hotel aus leicht erreichen.",
+    "nearTitle": "In der Nähe",
+    "dayTitle": "Tagesausflüge",
+    "help": "Unsere Rezeption hilft Ihnen rund um die Uhr bei Anreise und Ausflugsplanung.",
+    "places": {
+      "terraCity": {
+        "name": "Terra City",
+        "text": "Einkaufszentrum in Lara, nahe dem Hotel."
+      },
+      "laraBeach": {
+        "name": "Lara-Strand",
+        "text": "Ein langer, feinsandiger Strand östlich von Antalya."
+      },
+      "duden": {
+        "name": "Unterer Düden-Wasserfall",
+        "text": "In Lara stürzt der Wasserfall von den Klippen direkt ins Meer — besonders schön bei Sonnenuntergang."
+      },
+      "kaleici": {
+        "name": "Kaleiçi",
+        "text": "Antalyas Altstadt mit osmanischen Häusern, Hadrianstor und historischem Hafen."
+      },
+      "museum": {
+        "name": "Archäologisches Museum Antalya",
+        "text": "Eines der bedeutendsten Archäologiemuseen der Türkei mit Funden aus den antiken Städten der Region."
+      },
+      "konyaalti": {
+        "name": "Konyaaltı-Strand",
+        "text": "Langer Kiesstrand westlich der Stadt mit Blick auf das Taurusgebirge."
+      },
+      "perge": {
+        "name": "Perge",
+        "text": "Eine der großen antiken Städte Pamphyliens mit Säulenstraßen und Stadion."
+      },
+      "aspendos": {
+        "name": "Aspendos",
+        "text": "Hier steht eines der besterhaltenen römischen Theater der Welt."
+      }
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Kontakt",
+    "lead": "Wir sind rund um die Uhr für Sie da. Für Buchungen nutzen Sie unser Online-System, für alles andere erreichen Sie uns direkt.",
+    "channels": {
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp",
+      "email": "E-Mail",
+      "address": "Adresse",
+      "reception": "Rezeption rund um die Uhr geöffnet"
+    },
+    "bookingHint": "Preise und Verfügbarkeit sehen Sie am schnellsten in unserem Online-Buchungssystem.",
+    "map": {
+      "title": "Lage",
+      "load": "Karte anzeigen",
+      "note": "Die Karte wird von Google Maps bereitgestellt; beim Laden können Google-Cookies gesetzt werden.",
+      "open": "In Google Maps öffnen",
+      "frameTitle": "Lage des {hotel}"
+    },
+    "form": {
+      "title": "Schreiben Sie uns",
+      "name": "Vor- und Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon (optional)",
+      "message": "Ihre Nachricht",
+      "consent": "Ich habe den <link>Datenschutzhinweis (KVKK)</link> zur Verarbeitung meiner Daten für die Beantwortung meiner Anfrage gelesen.",
+      "submit": "Senden",
+      "sending": "Wird gesendet…",
+      "success": "Vielen Dank — wir haben Ihre Nachricht erhalten und melden uns bald.",
+      "error": "Die Nachricht konnte nicht gesendet werden. Bitte rufen Sie uns an oder schreiben Sie auf WhatsApp.",
+      "required": "Bitte füllen Sie dieses Feld aus.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "consentRequired": "Bitte setzen Sie das Häkchen, um fortzufahren.",
+      "unavailable": "Das Kontaktformular ist bald verfügbar. Bis dahin erreichen Sie uns per Telefon, WhatsApp oder E-Mail."
+    }
   }
 }

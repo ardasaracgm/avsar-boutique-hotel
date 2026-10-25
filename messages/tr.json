@@ -374,5 +374,109 @@
     "counter": "{current} / {total}",
     "emptyTitle": "Fotoğraflar hazırlanıyor",
     "emptyText": "Otelimizin güncel fotoğrafları çok yakında burada olacak. O zamana kadar müsaitliği kontrol edebilir ya da bize WhatsApp’tan yazabilirsiniz."
+  },
+  "aboutPage": {
+    "eyebrow": "Hakkımızda",
+    "lead": "Şirinyalı’da, Akdeniz ve Toros Dağları’na bakan samimi bir butik otel.",
+    "storyTitle": "Lara’da, denize bakan butik bir otel",
+    "story1": "Avşar Boutique Hotel, Antalya’nın Lara bölgesinde, Şirinyalı’da yer alan 36 odalı bir butik oteldir. Deniz ve Toros Dağları manzarasını, şehrin hareketine yakın ama sakin bir konumla buluşturur.",
+    "story2": "Güne, otelin hemen karşısında falezlerin üzerindeki Dialogue Coffee & Kitchen’da kahvaltıyla başlarsınız; gün içinde açık havuzda serinler, akşamları SPA’da dinlenirsiniz. Eski Lara Caddesi ve Terra City birkaç adım ötede.",
+    "whyTitle": "Neden Avşar?",
+    "why": {
+      "view": {
+        "title": "Manzara",
+        "text": "Deniz ve Toros Dağları’na bakan odalar ve manzaralı kahvaltı."
+      },
+      "breakfast": {
+        "title": "Kahvaltı dahil",
+        "text": "Tüm odalarda kahvaltı konaklamaya dahildir."
+      },
+      "location": {
+        "title": "Konum",
+        "text": "Lara’da, Eski Lara Caddesi ve Terra City yakınında."
+      },
+      "relax": {
+        "title": "Dinlenme",
+        "text": "Açık havuz, hamam, sauna ve masaj seçenekleri."
+      }
+    },
+    "license": "Kültür ve Turizm Bakanlığı belgeli tesis · Belge No: {number}",
+    "ctaRooms": "Odaları İncele"
+  },
+  "guidePage": {
+    "eyebrow": "Keşfedin",
+    "lead": "Lara’nın kumsallarından Kaleiçi’nin dar sokaklarına, antik kentlere; otelden kolayca ulaşabileceğiniz yerler.",
+    "nearTitle": "Yakın çevre",
+    "dayTitle": "Günübirlik geziler",
+    "help": "Ulaşım ve gezi planı için 7/24 resepsiyonumuz size yardımcı olur.",
+    "places": {
+      "terraCity": {
+        "name": "Terra City",
+        "text": "Lara’daki alışveriş merkezi; otelimize yakın."
+      },
+      "laraBeach": {
+        "name": "Lara Plajı",
+        "text": "Antalya’nın doğusunda uzanan uzun, ince kumlu plaj."
+      },
+      "duden": {
+        "name": "Aşağı Düden Şelalesi",
+        "text": "Lara’da falezlerden doğrudan denize dökülen şelale; gün batımında ayrı güzel."
+      },
+      "kaleici": {
+        "name": "Kaleiçi",
+        "text": "Osmanlı evleri, Hadrian Kapısı ve tarihi limanıyla Antalya’nın eski şehri."
+      },
+      "museum": {
+        "name": "Antalya Müzesi",
+        "text": "Bölgenin antik kentlerinden eserlerle Türkiye’nin önemli arkeoloji müzelerinden biri."
+      },
+      "konyaalti": {
+        "name": "Konyaaltı Plajı",
+        "text": "Toros Dağları manzaralı, şehrin batısındaki uzun çakıl plaj."
+      },
+      "perge": {
+        "name": "Perge Antik Kenti",
+        "text": "Sütunlu caddeleri ve stadyumuyla Pamfilya’nın önemli antik kentlerinden."
+      },
+      "aspendos": {
+        "name": "Aspendos",
+        "text": "Dünyanın en iyi korunmuş Roma tiyatrolarından birine ev sahipliği yapar."
+      }
+    }
+  },
+  "contactPage": {
+    "eyebrow": "İletişim",
+    "lead": "Sorularınız için 7/24 buradayız. Rezervasyon için online sistemimizi, diğer her şey için bize doğrudan ulaşın.",
+    "channels": {
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp",
+      "email": "E-posta",
+      "address": "Adres",
+      "reception": "Resepsiyon 7/24 açık"
+    },
+    "bookingHint": "Fiyat ve müsaitlik için en hızlı yol online rezervasyon sistemimizdir.",
+    "map": {
+      "title": "Konum",
+      "load": "Haritayı göster",
+      "note": "Harita Google Maps tarafından sağlanır; yüklediğinizde Google çerezleri kullanılabilir.",
+      "open": "Google Maps’te aç",
+      "frameTitle": "{hotel} konumu"
+    },
+    "form": {
+      "title": "Bize yazın",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon (isteğe bağlı)",
+      "message": "Mesajınız",
+      "consent": "Kişisel verilerimin talebime yanıt verilmesi amacıyla işlenmesine ilişkin <link>KVKK Aydınlatma Metni</link>’ni okudum.",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor…",
+      "success": "Mesajınız alındı. En kısa sürede size dönüş yapacağız.",
+      "error": "Mesaj gönderilemedi. Lütfen telefon veya WhatsApp ile ulaşın.",
+      "required": "Lütfen bu alanı doldurun.",
+      "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
+      "consentRequired": "Devam etmek için onay kutusunu işaretleyin.",
+      "unavailable": "İletişim formu çok yakında aktif olacak. Şimdilik telefon, WhatsApp veya e-posta ile ulaşabilirsiniz."
+    }
   }
 }

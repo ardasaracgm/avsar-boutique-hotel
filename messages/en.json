@@ -374,5 +374,109 @@
     "counter": "{current} / {total}",
     "emptyTitle": "Photos coming soon",
     "emptyText": "Up-to-date photos of the hotel will be here very soon. In the meantime, check availability or message us on WhatsApp."
+  },
+  "aboutPage": {
+    "eyebrow": "About Us",
+    "lead": "A warm boutique hotel in Şirinyalı, facing the Mediterranean and the Taurus Mountains.",
+    "storyTitle": "A boutique hotel by the sea in Lara",
+    "story1": "Avşar Boutique Hotel is a 36-room boutique hotel in Şirinyalı, in Antalya’s Lara district. It pairs views of the sea and the Taurus Mountains with a calm location close to the life of the city.",
+    "story2": "Start the day with breakfast at Dialogue Coffee & Kitchen, on the cliffs just across from the hotel; cool off in the outdoor pool and unwind at the spa in the evening. Old Lara Road and Terra City are a short walk away.",
+    "whyTitle": "Why Avşar?",
+    "why": {
+      "view": {
+        "title": "The view",
+        "text": "Rooms facing the sea and the Taurus Mountains, and breakfast with a view."
+      },
+      "breakfast": {
+        "title": "Breakfast included",
+        "text": "Breakfast is included in every room."
+      },
+      "location": {
+        "title": "Location",
+        "text": "In Lara, close to Old Lara Road and Terra City."
+      },
+      "relax": {
+        "title": "Unwind",
+        "text": "Outdoor pool, hammam, sauna and a choice of massages."
+      }
+    },
+    "license": "Licensed by the Ministry of Culture and Tourism · Licence no. {number}",
+    "ctaRooms": "Explore Rooms"
+  },
+  "guidePage": {
+    "eyebrow": "Explore",
+    "lead": "From Lara’s beaches to the lanes of Kaleiçi and ancient cities — places within easy reach of the hotel.",
+    "nearTitle": "Nearby",
+    "dayTitle": "Day trips",
+    "help": "Our 24/7 reception is happy to help with transport and day plans.",
+    "places": {
+      "terraCity": {
+        "name": "Terra City",
+        "text": "Shopping mall in Lara, close to the hotel."
+      },
+      "laraBeach": {
+        "name": "Lara Beach",
+        "text": "A long, fine-sand beach stretching east of Antalya."
+      },
+      "duden": {
+        "name": "Lower Düden Waterfall",
+        "text": "In Lara, the waterfall plunges from the cliffs straight into the sea — especially lovely at sunset."
+      },
+      "kaleici": {
+        "name": "Kaleiçi",
+        "text": "Antalya’s old town, with Ottoman houses, Hadrian’s Gate and the historic harbour."
+      },
+      "museum": {
+        "name": "Antalya Museum",
+        "text": "One of Türkiye’s major archaeology museums, with finds from the region’s ancient cities."
+      },
+      "konyaalti": {
+        "name": "Konyaaltı Beach",
+        "text": "A long pebble beach west of the city, facing the Taurus Mountains."
+      },
+      "perge": {
+        "name": "Perge",
+        "text": "One of Pamphylia’s great ancient cities, with colonnaded streets and a stadium."
+      },
+      "aspendos": {
+        "name": "Aspendos",
+        "text": "Home to one of the best-preserved Roman theatres in the world."
+      }
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "lead": "We are here 24/7. Use our online booking system for reservations and reach us directly for everything else.",
+    "channels": {
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "Address",
+      "reception": "Reception open 24/7"
+    },
+    "bookingHint": "The fastest way to see rates and availability is our online booking system.",
+    "map": {
+      "title": "Location",
+      "load": "Show map",
+      "note": "The map is provided by Google Maps; loading it may set Google cookies.",
+      "open": "Open in Google Maps",
+      "frameTitle": "Location of {hotel}"
+    },
+    "form": {
+      "title": "Write to us",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "message": "Your message",
+      "consent": "I have read the <link>Personal Data Notice (KVKK)</link> on how my data is processed to answer my request.",
+      "submit": "Send",
+      "sending": "Sending…",
+      "success": "Thank you — we received your message and will get back to you soon.",
+      "error": "Your message could not be sent. Please call or message us on WhatsApp.",
+      "required": "Please fill in this field.",
+      "invalidEmail": "Please enter a valid email address.",
+      "consentRequired": "Please tick the box to continue.",
+      "unavailable": "The contact form will be available soon. Meanwhile, reach us by phone, WhatsApp or email."
+    }
   }
 }

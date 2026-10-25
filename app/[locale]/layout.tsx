@@ -51,7 +51,7 @@ export const viewport: Viewport = {
 
 /**
  * Only the namespaces used by Client Components are sent to the browser
- * (Header, LanguageSwitcher, LocaleLinks, BookingBar, StickyBookBar).
+ * (Header, LanguageSwitcher, LocaleLinks, BookingBar, StickyBookBar, ContactForm).
  * Add a namespace here when a new Client Component calls useTranslations.
  */
 async function clientMessages() {
@@ -62,6 +62,7 @@ async function clientMessages() {
     languages: m.languages,
     whatsapp: m.whatsapp,
     home: { booking: m.home.booking, sticky: m.home.sticky },
+    contactPage: { form: m.contactPage.form },
   };
 }
 
