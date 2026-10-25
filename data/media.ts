@@ -104,11 +104,18 @@ export const media = {
       { src: "/images/rooms/superior-sea-view/05.jpg", width: 2400, height: 1600 },
     ],
 } satisfies Record<RoomSlug, MediaItem[]>,
-  // Panoramic terrace view used as the homepage Dialogue banner and the Dialogue page header.
+  // Dialogue Coffee & Kitchen — original photos. [0] = homepage banner, [1] = Dialogue page header.
   dialogue: [
-    { src: "/images/dialogue/terrace-sunset.jpg", width: 2244, height: 701, position: "62% 50%", provisional: true },
+    { src: "/images/dialogue/terrace.jpg", width: 2048, height: 1365, position: "55% 55%" },
+    { src: "/images/dialogue/aerial-cliff.jpg", width: 2048, height: 1534, position: "50% 45%" },
+    { src: "/images/dialogue/breakfast-view.jpg", width: 2048, height: 1536 },
+    { src: "/images/dialogue/garden.jpg", width: 2048, height: 1365 },
+    { src: "/images/dialogue/night.jpg", width: 2048, height: 1534 },
+    { src: "/images/dialogue/aerial-hotel.jpg", width: 2048, height: 1533 },
+    { src: "/images/dialogue/aerial-top.jpg", width: 2048, height: 1533 },
+    { src: "/images/dialogue/breakfast-terrace.jpg", width: 2048, height: 1536 },
   ] as MediaItem[],
-  breakfast: empty,
+  breakfast: { src: "/images/dialogue/breakfast-terrace.jpg", width: 2048, height: 1536 } as MediaItem,
   pool: empty,
   spa: empty, // owner: SPA exists, no original photos yet
   nightExterior: empty,
@@ -129,6 +136,13 @@ export const media = {
     { src: "/images/rooms/deluxe-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
     { src: "/images/rooms/superior-land-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
     { src: "/images/rooms/standard-land-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
+    { src: "/images/dialogue/terrace.jpg", width: 2048, height: 1365, category: "dialogue" },
+    { src: "/images/dialogue/night.jpg", width: 2048, height: 1534, category: "dialogue" },
+    { src: "/images/dialogue/breakfast-view.jpg", width: 2048, height: 1536, category: "dialogue" },
+    { src: "/images/dialogue/garden.jpg", width: 2048, height: 1365, category: "dialogue" },
+    { src: "/images/dialogue/aerial-cliff.jpg", width: 2048, height: 1534, category: "hotel" },
+    { src: "/images/dialogue/aerial-top.jpg", width: 2048, height: 1533, category: "hotel" },
+    { src: "/images/dialogue/aerial-hotel.jpg", width: 2048, height: 1533, category: "hotel" },
   ] as GalleryItem[],
 } as const;
 

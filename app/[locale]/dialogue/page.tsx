@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Clock3, Coffee, ExternalLink, MapPin, MessageCircle, Music, Phone, UtensilsCrossed } from "lucide-react";
 import { getLocale, getTranslations } from "next-intl/server";
 import { hotel } from "@/data/hotel";
-import { media } from "@/data/media";
+import { galleryCategories, media } from "@/data/media";
+import { GalleryGrid } from "@/components/gallery/gallery-grid";
 import { whatsappUrl } from "@/lib/booking";
 import { pageMetadata } from "@/lib/page-metadata";
 import { absoluteUrl } from "@/lib/seo";
@@ -28,7 +29,21 @@ const dayItems = [
 export default async function DialoguePage() {
   const [t, locale] = await Promise.all([getTranslations(), getLocale()]);
   const d = hotel.facilities.dialogue;
-  const [mainPhoto = { src: null }, secondPhoto = { src: null }] = media.dialogue;
+  const headerPhoto = media.dialogue[1] ?? { src: null };
+  const introPhoto = media.dialogue[2] ?? { src: null };
+  const photos = media.dialogue
+    .filter((p) => p.src && p.width && p.height)
+    .map((p) => ({ src: p.src!, width: p.width!, height: p.height!, category: "dialogue" as const }));
+  const galleryLabels = {
+    all: t("galleryPage.all"),
+    filter: t("galleryPage.filter"),
+    categories: Object.fromEntries(galleryCategories.map((c) => [c, d.name])) as Record<(typeof galleryCategories)[number], string>,
+    open: t.raw("galleryPage.open") as string,
+    close: t("galleryPage.close"),
+    prev: t("galleryPage.prev"),
+    next: t("galleryPage.next"),
+    counter: t.raw("galleryPage.counter") as string,
+  };
   const breakfastHours = t("dialoguePage.info.breakfastHours", d.breakfast.hours);
   const kitchenHours = t("dialoguePage.info.kitchenHours", d.lunchDinner.hours);
 
@@ -69,7 +84,7 @@ export default async function DialoguePage() {
         eyebrow={t("dialoguePage.eyebrow")}
         lead={t("dialoguePage.lead")}
         crumbs={[{ label: t("nav.dialogue") }]}
-        image={mainPhoto}
+        image={headerPhoto}
         slot="dialogue"
       />
 
@@ -101,7 +116,7 @@ export default async function DialoguePage() {
               <HotelImage item={media.breakfast} slot="dialogue" alt="" sizes="(min-width: 1024px) 25vw, 50vw" />
             </div>
             <div className="relative mt-10 aspect-[3/4]">
-              <HotelImage item={secondPhoto} slot="dialogue" alt="" sizes="(min-width: 1024px) 25vw, 50vw" />
+              <HotelImage item={introPhoto} slot="dialogue" alt="" sizes="(min-width: 1024px) 25vw, 50vw" />
             </div>
           </Reveal>
         </Container>
@@ -130,6 +145,17 @@ export default async function DialoguePage() {
           </ul>
         </Container>
       </section>
+
+      {photos.length > 0 && (
+        <section aria-labelledby="dialogue-photos" className="pt-20 sm:pt-24">
+          <Container>
+            <h2 id="dialogue-photos" className="text-h2">
+              {t("roomDetail.photos", { count: photos.length })}
+            </h2>
+            <GalleryGrid items={photos} locale={locale} labels={galleryLabels} />
+          </Container>
+        </section>
+      )}
 
       <section aria-labelledby="dialogue-info" className="py-20 sm:py-24">
         <Container className="grid gap-12 lg:grid-cols-12 lg:gap-16">
