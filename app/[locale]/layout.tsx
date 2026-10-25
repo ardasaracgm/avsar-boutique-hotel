@@ -7,7 +7,7 @@ import { hotel } from "@/data/hotel";
 import { localeDirection, routing } from "@/i18n/routing";
 import { bodyFont, headingFont } from "@/lib/fonts";
 import { baseOpenGraph, localizedAlternates } from "@/lib/seo";
-import { isSiteLive, siteUrl } from "@/lib/site";
+import { assetOrigin, isSiteLive } from "@/lib/site";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { WhatsAppButton } from "@/components/layout/whatsapp-button";
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase: new URL(assetOrigin),
     title: { default: `${hotel.name} | Lara, Antalya`, template: `%s | ${hotel.name}` },
     description: t("description"),
     alternates: localizedAlternates("/", locale),
