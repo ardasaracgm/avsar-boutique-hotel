@@ -321,8 +321,14 @@
     },
     "spa": {
       "title": "Spa & Massage",
-      "text": "Leave the day behind at Avşar Spa. Contact reception for treatments and appointments.",
-      "contact": "Ask us"
+      "text": "Leave the day behind at Avşar Spa: hammam, sauna and a choice of massages. Message us for details and appointments.",
+      "contact": "Ask us",
+      "services": {
+        "hammam": "Hammam",
+        "sauna": "Sauna",
+        "massage": "Choice of massages"
+      },
+      "paid": "All spa services are charged separately."
     },
     "dining": {
       "title": "Dialogue Coffee & Kitchen",

@@ -84,6 +84,15 @@ export default async function ExperiencesPage() {
 
         <FeatureBlock id="spa" title={t("experiencesPage.spa.title")} image={media.spa} slot="spa" reverse>
           <p className="mt-5 text-lg leading-relaxed text-ink-muted">{t("experiencesPage.spa.text")}</p>
+          <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm">
+            {hotel.facilities.spa.services.map((svc) => (
+              <li key={svc} className="flex items-center gap-2">
+                <Sparkles aria-hidden className="size-4 text-sand-deep" strokeWidth={1.5} />
+                {t(`experiencesPage.spa.services.${svc}`)}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4 text-xs text-ink-muted">{t("experiencesPage.spa.paid")}</p>
           <ButtonAnchor
             href={whatsappUrl(t("whatsapp.message", { hotel: hotel.name }))}
             target="_blank"

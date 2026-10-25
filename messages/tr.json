@@ -321,8 +321,14 @@
     },
     "spa": {
       "title": "SPA & Masaj",
-      "text": "Günün yorgunluğunu Avşar Spa’da geride bırakın. Hizmetler ve randevu için resepsiyonumuzla iletişime geçebilirsiniz.",
-      "contact": "Bilgi al"
+      "text": "Günün yorgunluğunu Avşar Spa’da geride bırakın: hamam, sauna ve farklı masaj seçenekleri. Bilgi ve randevu için bize yazabilirsiniz.",
+      "contact": "Bilgi al",
+      "services": {
+        "hammam": "Hamam",
+        "sauna": "Sauna",
+        "massage": "Masaj çeşitleri"
+      },
+      "paid": "Tüm SPA hizmetleri ücretlidir."
     },
     "dining": {
       "title": "Dialogue Coffee & Kitchen",

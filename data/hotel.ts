@@ -69,7 +69,8 @@ export const hotel = {
     },
     spa: {
       name: "Avşar Spa",
-      services: ["spa", "massage"],
+      services: ["hammam", "sauna", "massage"], // owner: several massage types
+      paid: true, // owner: all spa services are paid
       verified: true,
       photosAvailable: false, // owner: SPA exists, no original photos yet → neutral placeholder
     },

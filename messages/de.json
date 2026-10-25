@@ -321,8 +321,14 @@
     },
     "spa": {
       "title": "Spa & Massage",
-      "text": "Lassen Sie den Tag im Avşar Spa hinter sich. Behandlungen und Termine erhalten Sie an der Rezeption.",
-      "contact": "Anfragen"
+      "text": "Lassen Sie den Tag im Avşar Spa hinter sich: Hamam, Sauna und verschiedene Massagen. Für Details und Termine schreiben Sie uns.",
+      "contact": "Anfragen",
+      "services": {
+        "hammam": "Hamam",
+        "sauna": "Sauna",
+        "massage": "Verschiedene Massagen"
+      },
+      "paid": "Alle Spa-Leistungen sind kostenpflichtig."
     },
     "dining": {
       "title": "Dialogue Coffee & Kitchen",
