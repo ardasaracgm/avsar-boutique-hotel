@@ -37,7 +37,8 @@ export type GalleryItem = {
   alt?: Partial<Record<"tr" | "en" | "de" | "ru", string>>;
 };
 
-const empty: MediaItem = { src: null };
+/** Use for a slot with no photo yet (renders a neutral placeholder). */
+export const emptyMedia: MediaItem = { src: null };
 
 export const media = {
   // Aerial: hotel + Dialogue on the left, sea on the right (text sits over the sea on desktop).
@@ -115,10 +116,13 @@ export const media = {
   ] as MediaItem[],
   breakfast: { src: "/images/dialogue/breakfast-terrace.jpg", width: 2048, height: 1536 } as MediaItem,
   pool: { src: "/images/hotel/pool.jpg", width: 1086, height: 1448, position: "50% 62%" } as MediaItem,
-  spa: empty, // owner: SPA exists, no original photos yet
-  nightExterior: empty,
-  // Antalya coastline (cliffs + Beydağları) behind the closing booking call-to-action.
-  ctaBanner: { src: "/images/hotel/coast-cliffs.jpg", width: 2244, height: 701, position: "65% 50%", provisional: true } as MediaItem,
+  spa: { src: "/images/hotel/spa-massage.jpg", width: 960, height: 720 } as MediaItem, // massage room (owner-supplied)
+  // Dialogue terrace at night (Antalya guide header).
+  nightExterior: { src: "/images/dialogue/night.jpg", width: 2048, height: 1534 } as MediaItem,
+  // Hotel, Dialogue and the cliffs with Lara behind — Experiences "location" block and Contact header.
+  location: { src: "/images/dialogue/aerial-hotel.jpg", width: 2048, height: 1533, position: "50% 55%" } as MediaItem,
+  // Top-down drone shot of the terrace, cliffs and sea behind the closing booking call-to-action.
+  ctaBanner: { src: "/images/dialogue/aerial-top.jpg", width: 2048, height: 1533, position: "50% 45%" } as MediaItem,
   // Add original photos here (order = display order). Homepage preview uses the first 5.
   gallery: [
     { src: "/images/gallery/view-01.jpg", width: 1448, height: 1086, category: "views" },
@@ -142,6 +146,7 @@ export const media = {
     { src: "/images/dialogue/aerial-top.jpg", width: 2048, height: 1533, category: "hotel" },
     { src: "/images/dialogue/aerial-hotel.jpg", width: 2048, height: 1533, category: "hotel" },
     { src: "/images/hotel/pool.jpg", width: 1086, height: 1448, category: "pool" },
+    { src: "/images/hotel/spa-massage.jpg", width: 960, height: 720, category: "hotel" },
   ] as GalleryItem[],
 } as const;
 

@@ -116,7 +116,7 @@ export default async function ExperiencesPage() {
           </ButtonLink>
         </FeatureBlock>
 
-        <FeatureBlock id="location" title={t("experiencesPage.location.title")} image={media.nightExterior} slot="hero" reverse>
+        <FeatureBlock id="location" title={t("experiencesPage.location.title")} image={media.location} slot="hero" reverse>
           <p className="mt-5 text-lg leading-relaxed text-ink-muted">{t("experiencesPage.location.text")}</p>
           <ButtonAnchor href={hotel.address.mapsUrl} target="_blank" rel="noopener" variant="outline" className="mt-8">
             {t("experiencesPage.location.cta")}

@@ -1,7 +1,7 @@
 # Launch checklist — hotelavsar.com
 
 ## Before switching the domain
-- [ ] **Provisional images**: every `media.ts` item with `provisional: true` (currently the closing CTA coastline; the aerial hero is confirmed real) must be an original, confirmed photo before launch.
+- [ ] **Provisional images**: every `media.ts` item with `provisional: true` (currently none) must be an original, confirmed photo before launch.
 - [ ] **Photos**: originals in `public/images/…`, slots filled in `data/media.ts` (hero, intro, rooms ×7, Dialogue, breakfast, pool, spa, night exterior, gallery). Re-crop `public/og.jpg` (1200×630) if the hero changes.
 - [ ] **Logo**: replace the text wordmark (`components/layout/wordmark.tsx`) and icons (`app/icon.png`, `app/apple-icon.png`, `app/favicon.ico`) if the hotel has an official logo.
 - [x] **Company title** added (from the tourism licence). [ ] **Legal**: have KVKK / privacy / terms texts reviewed by the hotel's legal advisor.

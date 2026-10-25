@@ -49,7 +49,7 @@ export default async function ContactPage() {
         eyebrow={t("contactPage.eyebrow")}
         lead={t("contactPage.lead")}
         crumbs={[{ label: t("pages.contact.title") }]}
-        image={media.nightExterior}
+        image={media.location}
         slot="hero"
       />
 
