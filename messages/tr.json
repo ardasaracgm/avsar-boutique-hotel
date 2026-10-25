@@ -297,9 +297,15 @@
       "location": "Konum",
       "locationValue": "Otelin hemen karşısında, falezlerin üzerinde",
       "contact": "Bilgi ve masa rezervasyonu",
-      "contactValue": "WhatsApp veya telefonla ulaşın"
+      "contactValue": "WhatsApp veya telefonla ulaşın",
+      "hours": "Kahvaltı saatleri",
+      "breakfastHours": "Kahvaltı {opens}–{closes}",
+      "tableValue": "Konaklayan misafirlerimiz masa ayırtmak için oda numaralarını belirtmeleri yeterli."
     },
     "ctaTitle": "Kahvaltısı manzaralı bir konaklama",
-    "ctaText": "Tüm odalarımızda kahvaltı dahildir. Tarihlerinizi seçin, müsaitliği görün."
+    "ctaText": "Tüm odalarımızda kahvaltı dahildir. Tarihlerinizi seçin, müsaitliği görün.",
+    "public": "Konaklamayan misafirlerimize de açıktır.",
+    "menu": "Menüyü Görüntüle",
+    "menuNote": "Menü yeni sekmede açılır."
   }
 }

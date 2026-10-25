@@ -76,10 +76,14 @@ export const hotel = {
     dialogue: {
       name: "Dialogue Coffee & Kitchen",
       // Breakfast for hotel guests is served here. Located on the cliffs, across the street.
-      breakfast: { includedForGuests: true, verified: true },
+      breakfast: { includedForGuests: true, hours: { opens: "08:30", closes: "10:00" }, verified: true },
       lunchDinner: { available: true, paid: true, verified: true },
       liveMusic: { schedule: "usuallyWeekends", verified: true },
-      openToPublic: { value: true, verified: false },
+      openToPublic: { value: true, verified: true }, // owner: outside guests welcome
+      /** Owner: hotel guests book a table by giving their room number. */
+      tableBooking: { method: "roomNumber", verified: true },
+      menuUrl: "https://qr.finedinemenu.com/dialogue-cafe/menu/6645aea3ca49e847ae85081d",
+      // TODO: general opening hours (lunch/dinner) not confirmed yet.
       verified: true,
     },
     // From ElektraWeb facility list (hotel's own entry). * = paid

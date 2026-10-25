@@ -297,9 +297,15 @@
       "location": "Location",
       "locationValue": "Just across from the hotel, on the cliffs",
       "contact": "Information and table bookings",
-      "contactValue": "Reach us by WhatsApp or phone"
+      "contactValue": "Reach us by WhatsApp or phone",
+      "hours": "Breakfast hours",
+      "breakfastHours": "Breakfast {opens}–{closes}",
+      "tableValue": "Hotel guests simply give their room number to book a table."
     },
     "ctaTitle": "A stay with breakfast and a view",
-    "ctaText": "Breakfast is included in every room. Choose your dates and check availability."
+    "ctaText": "Breakfast is included in every room. Choose your dates and check availability.",
+    "public": "Also open to guests not staying at the hotel.",
+    "menu": "View Menu",
+    "menuNote": "The menu opens in a new tab."
   }
 }
