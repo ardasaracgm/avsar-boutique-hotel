@@ -17,10 +17,10 @@ export type GalleryLabels = {
   counter: string; // contains "{current}" and "{total}"
 };
 
-type Props = { items: GalleryItem[]; locale: "tr" | "en" | "de" | "ru"; labels: GalleryLabels };
+type Props = { items: GalleryItem[]; locale: "tr" | "en" | "de" | "ru"; labels: GalleryLabels; compact?: boolean };
 
 /** Filterable photo grid with an accessible lightbox (native <dialog>, arrow keys, swipe). */
-export function GalleryGrid({ items, locale, labels }: Props) {
+export function GalleryGrid({ items, locale, labels, compact = false }: Props) {
   const [filter, setFilter] = useState<GalleryCategory | "all">("all");
   const [index, setIndex] = useState<number | null>(null);
   const dialogRef = useRef<HTMLDialogElement>(null);
@@ -88,7 +88,7 @@ export function GalleryGrid({ items, locale, labels }: Props) {
         </div>
       )}
 
-      <ul className="mt-8 columns-1 gap-4 sm:columns-2 lg:columns-3">
+      <ul className={cn("mt-8 columns-1 gap-4 sm:columns-2", compact ? "" : "lg:columns-3")}>
         {visible.map((item, i) => (
           <li key={item.src} className="mb-4 break-inside-avoid">
             <button

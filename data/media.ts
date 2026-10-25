@@ -51,15 +51,46 @@ export const media = {
     // Owner: composite of two real drone shots (confirmed 25 Oct 2026).
   } as MediaItem,
   intro: [empty, empty, empty],
+  // Room photos: first item = card image. Superior Sea View 01–04 are owner photos with light AI touch-ups (sky/light).
   rooms: {
-    "standard-land-view": [empty],
-    "standard-sea-view": [empty],
-    "partial-sea-view": [empty],
-    "comfort-sea-view": [empty],
-    "superior-land-view": [empty],
-    "deluxe-sea-view": [empty],
-    "superior-sea-view": [empty],
-  } satisfies Record<RoomSlug, MediaItem[]>,
+    "standard-land-view": [
+      { src: "/images/rooms/standard-land-view/01.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/standard-land-view/02.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/standard-land-view/03.jpg", width: 2400, height: 1600 },
+    ],
+    "standard-sea-view": [
+      { src: "/images/rooms/standard-sea-view/01.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/standard-sea-view/02.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/standard-sea-view/03.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/standard-sea-view/04.jpg", width: 2400, height: 1600 },
+    ],
+    "partial-sea-view": [
+      { src: "/images/rooms/partial-sea-view/01.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/partial-sea-view/02.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/partial-sea-view/03.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/partial-sea-view/04.jpg", width: 1138, height: 1707 },
+    ],
+    "comfort-sea-view": [
+      { src: "/images/rooms/comfort-sea-view/01.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/comfort-sea-view/02.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/comfort-sea-view/03.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/comfort-sea-view/04.jpg", width: 2400, height: 1600 },
+    ],
+    "superior-land-view": [
+      { src: "/images/rooms/superior-land-view/01.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/superior-land-view/02.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/superior-land-view/03.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/superior-land-view/04.jpg", width: 2400, height: 1600 },
+    ],
+    "deluxe-sea-view": [empty], // TODO: photos
+    "superior-sea-view": [
+      { src: "/images/rooms/superior-sea-view/01.jpg", width: 1448, height: 1086 },
+      { src: "/images/rooms/superior-sea-view/02.jpg", width: 1448, height: 1086 },
+      { src: "/images/rooms/superior-sea-view/03.jpg", width: 1448, height: 1086 },
+      { src: "/images/rooms/superior-sea-view/04.jpg", width: 1448, height: 1086 },
+      { src: "/images/rooms/superior-sea-view/05.jpg", width: 2400, height: 1600 },
+    ],
+} satisfies Record<RoomSlug, MediaItem[]>,
   // Panoramic terrace view used as the homepage Dialogue banner and the Dialogue page header.
   dialogue: [
     { src: "/images/dialogue/terrace-sunset.jpg", width: 2244, height: 701, position: "62% 50%", provisional: true },
@@ -71,7 +102,20 @@ export const media = {
   // Antalya coastline (cliffs + Beydağları) behind the closing booking call-to-action.
   ctaBanner: { src: "/images/hotel/coast-cliffs.jpg", width: 2244, height: 701, position: "65% 50%", provisional: true } as MediaItem,
   // Add original photos here (order = display order). Homepage preview uses the first 5.
-  gallery: [] as GalleryItem[],
+  gallery: [
+    { src: "/images/gallery/view-01.jpg", width: 1448, height: 1086, category: "views" },
+    { src: "/images/gallery/view-02.jpg", width: 1448, height: 1086, category: "views" },
+    { src: "/images/gallery/view-03.jpg", width: 1448, height: 1086, category: "views" },
+    { src: "/images/gallery/view-04.jpg", width: 1448, height: 1086, category: "views" },
+    { src: "/images/gallery/view-05.jpg", width: 1448, height: 1086, category: "views" },
+    { src: "/images/gallery/view-06.jpg", width: 1448, height: 1086, category: "views" },
+    { src: "/images/rooms/superior-sea-view/01.jpg", width: 1448, height: 1086, category: "rooms" },
+    { src: "/images/rooms/standard-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
+    { src: "/images/rooms/comfort-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
+    { src: "/images/rooms/partial-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
+    { src: "/images/rooms/superior-land-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
+    { src: "/images/rooms/standard-land-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
+  ] as GalleryItem[],
 } as const;
 
 // TODO: request original high-resolution files (JPG/RAW) from the hotel / photographer.

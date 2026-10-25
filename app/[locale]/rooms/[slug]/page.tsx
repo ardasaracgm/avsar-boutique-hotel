@@ -31,6 +31,8 @@ import { Reveal } from "@/components/ui/reveal";
 import { Eyebrow, Heading, Text } from "@/components/ui/typography";
 import { RoomCard } from "@/components/rooms/room-card";
 import { RoomPolicies } from "@/components/rooms/room-policies";
+import { GalleryGrid } from "@/components/gallery/gallery-grid";
+import { galleryCategories } from "@/data/media";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -83,6 +85,19 @@ export default async function RoomPage({ params }: Props) {
   const photos = media.rooms[room.slug as keyof typeof media.rooms] ?? [];
   const [main, second = { src: null }, third = { src: null }] = photos.length ? photos : [{ src: null }];
   const ViewIcon = room.view === "land" ? Mountain : Waves;
+  const allPhotos = photos
+    .filter((p) => p.src && p.width && p.height)
+    .map((p) => ({ src: p.src!, width: p.width!, height: p.height!, category: "rooms" as const }));
+  const galleryLabels = {
+    all: t("galleryPage.all"),
+    filter: t("galleryPage.filter"),
+    categories: Object.fromEntries(galleryCategories.map((c) => [c, name])) as Record<(typeof galleryCategories)[number], string>,
+    open: t.raw("galleryPage.open") as string,
+    close: t("galleryPage.close"),
+    prev: t("galleryPage.prev"),
+    next: t("galleryPage.next"),
+    counter: t.raw("galleryPage.counter") as string,
+  };
 
   const facts = [
     {
@@ -165,6 +180,15 @@ export default async function RoomPage({ params }: Props) {
             <Text size="lg" muted className="mt-4">
               {t(`rooms.${key}.description`)}
             </Text>
+
+            {allPhotos.length > 3 && (
+              <>
+                <h2 className="mt-12 font-heading text-h3">{t("roomDetail.photos", { count: allPhotos.length })}</h2>
+                <div className="-mt-8">
+                  <GalleryGrid items={allPhotos} locale={locale} labels={galleryLabels} compact />
+                </div>
+              </>
+            )}
 
             <h2 className="mt-12 font-heading text-h3">{t("roomDetail.amenities")}</h2>
             <ul className="mt-6 grid gap-x-8 gap-y-4 sm:grid-cols-2">

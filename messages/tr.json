@@ -268,7 +268,8 @@
       "breakfastIncluded": "Kahvaltı dahil",
       "privateBathroom": "Özel banyo",
       "dailyHousekeeping": "Günlük oda temizliği"
-    }
+    },
+    "photos": "Fotoğraflar ({count})"
   },
   "dialoguePage": {
     "eyebrow": "Avşar Boutique Hotel’in kafe ve restoranı",

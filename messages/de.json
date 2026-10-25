@@ -268,7 +268,8 @@
       "breakfastIncluded": "Frühstück inklusive",
       "privateBathroom": "Eigenes Bad",
       "dailyHousekeeping": "Tägliche Zimmerreinigung"
-    }
+    },
+    "photos": "Fotos ({count})"
   },
   "dialoguePage": {
     "eyebrow": "Café und Restaurant des Avşar Boutique Hotel",
