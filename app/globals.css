@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #142c3b;
+  --color-ivory: #f6f2eb;
+  --color-sand: #c2a47c;
+  --color-sea: #5c8c9d;
+  --font-heading: var(--font-heading), Georgia, serif;
+  --font-body: var(--font-body), system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-navy);
+  font-family: var(--font-body);
+}
