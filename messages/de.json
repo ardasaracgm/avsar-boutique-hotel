@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "description": "Boutiquehotel in Lara, Antalya, mit Blick auf das Mittelmeer und das Taurusgebirge. Übernachtung mit Frühstück, Außenpool, Spa und Dialogue Coffee & Kitchen."
+  },
+  "a11y": {
+    "skipToContent": "Zum Inhalt springen",
+    "mainNav": "Hauptnavigation",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "language": "Sprache wählen",
+    "currentLanguage": "Aktuelle Sprache: {language}",
+    "opensWhatsapp": "Startet einen WhatsApp-Chat",
+    "opensBooking": "Öffnet das Online-Buchungssystem"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Das Hotel",
+    "rooms": "Zimmer",
+    "dialogue": "Dialogue",
+    "experiences": "Erlebnisse",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "guide": "Antalya-Reiseführer",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "kvkk": "KVKK",
+    "book": "Buchen"
+  },
+  "home": {
+    "eyebrow": "Antalya · Lara",
+    "title": "Ein Boutiquehotel mit Blick aufs Meer",
+    "intro": "Unsere neue Website entsteht gerade. Aktuelle Verfügbarkeiten und Preise finden Sie in unserem Online-Buchungssystem.",
+    "ctaBook": "Verfügbarkeit prüfen",
+    "ctaRooms": "Zimmer ansehen"
+  },
+  "pages": {
+    "about": {
+      "title": "Über uns"
+    },
+    "rooms": {
+      "title": "Zimmer"
+    },
+    "dialogue": {
+      "title": "Dialogue Coffee & Kitchen"
+    },
+    "experiences": {
+      "title": "Erlebnisse"
+    },
+    "gallery": {
+      "title": "Galerie"
+    },
+    "guide": {
+      "title": "Antalya-Reiseführer"
+    },
+    "contact": {
+      "title": "Kontakt"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen"
+    },
+    "kvkk": {
+      "title": "Datenschutzhinweis (KVKK)"
+    },
+    "comingSoon": "Diese Seite wird gerade vorbereitet.",
+    "backHome": "Zur Startseite",
+    "allRooms": "Alle Zimmer"
+  },
+  "rooms": {
+    "standard-land-view": {
+      "name": "Standardzimmer mit Landblick"
+    },
+    "standard-sea-view": {
+      "name": "Standardzimmer mit Meerblick"
+    },
+    "comfort-sea-view": {
+      "name": "Comfort-Zimmer mit Meerblick"
+    },
+    "superior-land-view": {
+      "name": "Superior-Zimmer mit Landblick"
+    },
+    "deluxe-sea-view": {
+      "name": "Deluxe-Zimmer mit Meerblick"
+    },
+    "superior-sea-view": {
+      "name": "Superior-Zimmer mit Meerblick"
+    }
+  },
+  "footer": {
+    "tagline": "Ein Boutiquehotel in Lara, Antalya, mit Blick auf das Mittelmeer und das Taurusgebirge.",
+    "explore": "Entdecken",
+    "information": "Informationen",
+    "contact": "Kontakt",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "whatsapp": "WhatsApp",
+    "reception": "Rezeption rund um die Uhr geöffnet",
+    "license": "Lizenz-Nr. des Ministeriums für Kultur und Tourismus: {number}",
+    "rights": "© {year} {hotel}. Alle Rechte vorbehalten.",
+    "languages": "Sprachen"
+  },
+  "whatsapp": {
+    "label": "Schreiben Sie uns auf WhatsApp",
+    "message": "Hallo, ich hätte gerne Informationen über das {hotel}."
+  },
+  "media": {
+    "placeholder": "Foto folgt",
+    "slots": {
+      "hero": "Hotel und Meerblick",
+      "room": "Zimmerfoto",
+      "dialogue": "Dialogue Coffee & Kitchen",
+      "pool": "Pool",
+      "spa": "Spa",
+      "gallery": "Galeriefoto"
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite wurde verschoben oder existiert nicht mehr.",
+    "cta": "Zur Startseite"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "ru": "Русский"
+  }
+}

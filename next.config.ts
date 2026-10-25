@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+import { legacyRedirects } from "./data/legacy-redirects";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
@@ -12,6 +13,11 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  async redirects() {
+    // Old WordPress URLs → new localized routes (301).
+    return legacyRedirects.map((r) => ({ ...r, permanent: true }));
+  },
 };
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
+export default withNextIntl(nextConfig);

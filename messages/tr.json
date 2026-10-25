@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "description": "Antalya Lara'da, Akdeniz ve Toros Dağları manzaralı butik otel. Oda-kahvaltı konaklama, açık havuz, SPA ve Dialogue Coffee & Kitchen."
+  },
+  "a11y": {
+    "skipToContent": "İçeriğe geç",
+    "mainNav": "Ana menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "language": "Dil seçimi",
+    "currentLanguage": "Seçili dil: {language}",
+    "opensWhatsapp": "WhatsApp'ta yazışma başlatır",
+    "opensBooking": "Online rezervasyon sistemini açar"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Otelimiz",
+    "rooms": "Odalar",
+    "dialogue": "Dialogue",
+    "experiences": "Deneyimler",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "guide": "Antalya Rehberi",
+    "privacy": "Gizlilik",
+    "terms": "Kullanım Koşulları",
+    "kvkk": "KVKK",
+    "book": "Rezervasyon"
+  },
+  "home": {
+    "eyebrow": "Antalya · Lara",
+    "title": "Denize bakan butik bir konaklama",
+    "intro": "Yeni web sitemiz hazırlanıyor. Güncel müsaitlik ve fiyatlar için online rezervasyon sistemimizi kullanabilirsiniz.",
+    "ctaBook": "Müsaitlik Sorgula",
+    "ctaRooms": "Odaları İncele"
+  },
+  "pages": {
+    "about": {
+      "title": "Hakkımızda"
+    },
+    "rooms": {
+      "title": "Odalar"
+    },
+    "dialogue": {
+      "title": "Dialogue Coffee & Kitchen"
+    },
+    "experiences": {
+      "title": "Deneyimler"
+    },
+    "gallery": {
+      "title": "Galeri"
+    },
+    "guide": {
+      "title": "Antalya Rehberi"
+    },
+    "contact": {
+      "title": "İletişim"
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası"
+    },
+    "terms": {
+      "title": "Kullanım Koşulları"
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni"
+    },
+    "comingSoon": "Bu sayfa hazırlanıyor.",
+    "backHome": "Ana sayfaya dön",
+    "allRooms": "Tüm odalar"
+  },
+  "rooms": {
+    "standard-land-view": {
+      "name": "Standart Kara Manzaralı Oda"
+    },
+    "standard-sea-view": {
+      "name": "Standart Deniz Manzaralı Oda"
+    },
+    "comfort-sea-view": {
+      "name": "Comfort Deniz Manzaralı Oda"
+    },
+    "superior-land-view": {
+      "name": "Superior Kara Manzaralı Oda"
+    },
+    "deluxe-sea-view": {
+      "name": "Deluxe Deniz Manzaralı Oda"
+    },
+    "superior-sea-view": {
+      "name": "Superior Deniz Manzaralı Oda"
+    }
+  },
+  "footer": {
+    "tagline": "Antalya Lara'da, Akdeniz ve Toros Dağları manzaralı butik otel.",
+    "explore": "Keşfedin",
+    "information": "Bilgi",
+    "contact": "İletişim",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "whatsapp": "WhatsApp",
+    "reception": "Resepsiyon 7/24 açık",
+    "license": "Kültür ve Turizm Bakanlığı Belge No: {number}",
+    "rights": "© {year} {hotel}. Tüm hakları saklıdır.",
+    "languages": "Diller"
+  },
+  "whatsapp": {
+    "label": "WhatsApp ile yazın",
+    "message": "Merhaba, {hotel} hakkında bilgi almak istiyorum."
+  },
+  "media": {
+    "placeholder": "Fotoğraf hazırlanıyor",
+    "slots": {
+      "hero": "Otel ve deniz manzarası",
+      "room": "Oda fotoğrafı",
+      "dialogue": "Dialogue Coffee & Kitchen",
+      "pool": "Havuz",
+      "spa": "SPA",
+      "gallery": "Galeri fotoğrafı"
+    }
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "text": "Aradığınız sayfa taşınmış ya da kaldırılmış olabilir.",
+    "cta": "Ana sayfaya dön"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "ru": "Русский"
+  }
+}

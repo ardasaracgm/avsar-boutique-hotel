@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "description": "Boutique hotel in Lara, Antalya with views of the Mediterranean and the Taurus Mountains. Bed & breakfast, outdoor pool, spa and Dialogue Coffee & Kitchen."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Choose language",
+    "currentLanguage": "Current language: {language}",
+    "opensWhatsapp": "Starts a WhatsApp chat",
+    "opensBooking": "Opens the online booking system"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "The Hotel",
+    "rooms": "Rooms",
+    "dialogue": "Dialogue",
+    "experiences": "Experiences",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "guide": "Antalya Guide",
+    "privacy": "Privacy",
+    "terms": "Terms of Use",
+    "kvkk": "KVKK",
+    "book": "Book Now"
+  },
+  "home": {
+    "eyebrow": "Antalya · Lara",
+    "title": "A boutique stay facing the sea",
+    "intro": "Our new website is on its way. For live availability and rates, please use our online booking system.",
+    "ctaBook": "Check Availability",
+    "ctaRooms": "Explore Rooms"
+  },
+  "pages": {
+    "about": {
+      "title": "About Us"
+    },
+    "rooms": {
+      "title": "Rooms"
+    },
+    "dialogue": {
+      "title": "Dialogue Coffee & Kitchen"
+    },
+    "experiences": {
+      "title": "Experiences"
+    },
+    "gallery": {
+      "title": "Gallery"
+    },
+    "guide": {
+      "title": "Antalya Guide"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "terms": {
+      "title": "Terms of Use"
+    },
+    "kvkk": {
+      "title": "Personal Data Notice (KVKK)"
+    },
+    "comingSoon": "This page is being prepared.",
+    "backHome": "Back to home",
+    "allRooms": "All rooms"
+  },
+  "rooms": {
+    "standard-land-view": {
+      "name": "Standard Room, Land View"
+    },
+    "standard-sea-view": {
+      "name": "Standard Room, Sea View"
+    },
+    "comfort-sea-view": {
+      "name": "Comfort Room, Sea View"
+    },
+    "superior-land-view": {
+      "name": "Superior Room, Land View"
+    },
+    "deluxe-sea-view": {
+      "name": "Deluxe Room, Sea View"
+    },
+    "superior-sea-view": {
+      "name": "Superior Room, Sea View"
+    }
+  },
+  "footer": {
+    "tagline": "A boutique hotel in Lara, Antalya, with views of the Mediterranean and the Taurus Mountains.",
+    "explore": "Explore",
+    "information": "Information",
+    "contact": "Contact",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "reception": "Reception open 24/7",
+    "license": "Ministry of Culture and Tourism licence no. {number}",
+    "rights": "© {year} {hotel}. All rights reserved.",
+    "languages": "Languages"
+  },
+  "whatsapp": {
+    "label": "Message us on WhatsApp",
+    "message": "Hello, I would like some information about {hotel}."
+  },
+  "media": {
+    "placeholder": "Photo coming soon",
+    "slots": {
+      "hero": "Hotel and sea view",
+      "room": "Room photo",
+      "dialogue": "Dialogue Coffee & Kitchen",
+      "pool": "Pool",
+      "spa": "Spa",
+      "gallery": "Gallery photo"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for may have moved or no longer exists.",
+    "cta": "Back to home"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "ru": "Русский"
+  }
+}
