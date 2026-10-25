@@ -1,0 +1,11 @@
+{
+  "name": "avsar-boutique-hotel",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash && npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["anthropic.claude-code", "dbaeumer.vscode-eslint", "bradlc.vscode-tailwindcss"]
+    }
+  },
+  "forwardPorts": [3000]
+}
