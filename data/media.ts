@@ -68,7 +68,8 @@ export const media = {
       { src: "/images/rooms/partial-sea-view/01.jpg", width: 2400, height: 1600 },
       { src: "/images/rooms/partial-sea-view/02.jpg", width: 2400, height: 1600 },
       { src: "/images/rooms/partial-sea-view/03.jpg", width: 2400, height: 1600 },
-      { src: "/images/rooms/partial-sea-view/04.jpg", width: 1138, height: 1707 },
+      { src: "/images/rooms/partial-sea-view/04.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/partial-sea-view/05.jpg", width: 2400, height: 1600 },
     ],
     "comfort-sea-view": [
       { src: "/images/rooms/comfort-sea-view/01.jpg", width: 2400, height: 1600 },
@@ -82,7 +83,12 @@ export const media = {
       { src: "/images/rooms/superior-land-view/03.jpg", width: 2400, height: 1600 },
       { src: "/images/rooms/superior-land-view/04.jpg", width: 2400, height: 1600 },
     ],
-    "deluxe-sea-view": [empty], // TODO: photos
+    "deluxe-sea-view": [
+      { src: "/images/rooms/deluxe-sea-view/01.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/deluxe-sea-view/02.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/deluxe-sea-view/03.jpg", width: 2400, height: 1600 },
+      { src: "/images/rooms/deluxe-sea-view/04.jpg", width: 1138, height: 1707 },
+    ],
     "superior-sea-view": [
       { src: "/images/rooms/superior-sea-view/01.jpg", width: 1448, height: 1086 },
       { src: "/images/rooms/superior-sea-view/02.jpg", width: 1448, height: 1086 },
@@ -113,6 +119,7 @@ export const media = {
     { src: "/images/rooms/standard-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
     { src: "/images/rooms/comfort-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
     { src: "/images/rooms/partial-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
+    { src: "/images/rooms/deluxe-sea-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
     { src: "/images/rooms/superior-land-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
     { src: "/images/rooms/standard-land-view/01.jpg", width: 2400, height: 1600, category: "rooms" },
   ] as GalleryItem[],
