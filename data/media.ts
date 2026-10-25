@@ -15,6 +15,19 @@ export type MediaItem = {
 
 type RoomSlug = (typeof rooms)[number]["slug"];
 
+export const galleryCategories = ["hotel", "rooms", "dialogue", "pool", "views"] as const;
+export type GalleryCategory = (typeof galleryCategories)[number];
+
+export type GalleryItem = {
+  /** Path under public/, e.g. "/images/gallery/pool-1.jpg". */
+  src: string;
+  width: number;
+  height: number;
+  category: GalleryCategory;
+  /** Optional per-locale alt text; falls back to the category name. */
+  alt?: Partial<Record<"tr" | "en" | "de" | "ru", string>>;
+};
+
 const empty: MediaItem = { src: null };
 
 export const media = {
@@ -34,7 +47,8 @@ export const media = {
   pool: empty,
   spa: empty, // owner: SPA exists, no original photos yet
   nightExterior: empty,
-  gallery: [] as MediaItem[],
+  // Add original photos here (order = display order). Homepage preview uses the first 5.
+  gallery: [] as GalleryItem[],
 } as const;
 
 // TODO: request original high-resolution files (JPG/RAW) from the hotel / photographer.

@@ -308,5 +308,65 @@
     "public": "Auch für externe Gäste geöffnet.",
     "menu": "Speisekarte ansehen",
     "menuNote": "Die Speisekarte öffnet sich in einem neuen Tab."
+  },
+  "experiencesPage": {
+    "eyebrow": "Avşar Boutique Hotel",
+    "lead": "Vom Außenpool bis zum Spa, vom Frühstück mit Aussicht bis zu den Küstenwegen von Lara — alles, was Ihren Aufenthalt abrundet.",
+    "pool": {
+      "title": "Außenpool",
+      "text": "Genießen Sie Sonne und Wasser in unserem Außenpool mit Sonnenliegen.",
+      "size": "{length} × {width} m",
+      "depth": "{depth} cm tief",
+      "loungers": "Sonnenliegen"
+    },
+    "spa": {
+      "title": "Spa & Massage",
+      "text": "Lassen Sie den Tag im Avşar Spa hinter sich. Behandlungen und Termine erhalten Sie an der Rezeption.",
+      "contact": "Anfragen"
+    },
+    "dining": {
+      "title": "Dialogue Coffee & Kitchen",
+      "text": "Das Frühstück ist inklusive und wird mit Meerblick direkt gegenüber dem Hotel serviert. Tagsüber à la carte, an den meisten Wochenenden Livemusik.",
+      "cta": "Dialogue entdecken"
+    },
+    "location": {
+      "title": "In Lara, direkt am Meer",
+      "text": "Unser Hotel in Şirinyalı liegt nahe der alten Lara-Straße und Terra City; Spaziergänge entlang der Klippen und die Restaurants der Stadt sind nur wenige Schritte entfernt.",
+      "cta": "Auf der Karte ansehen"
+    },
+    "servicesTitle": "Hotelleistungen",
+    "servicesNote": "* Kostenpflichtig",
+    "services": {
+      "wifi": "Kostenloses WLAN",
+      "freeParking": "Kostenloser Parkplatz",
+      "valetParking": "Parkservice",
+      "reception24h": "Rezeption rund um die Uhr",
+      "elevator": "Aufzug",
+      "airConditioning": "Klimaanlage",
+      "dailyHousekeeping": "Tägliche Zimmerreinigung",
+      "wakeUpService": "Weckservice",
+      "lobbyBar": "Lobbybar*",
+      "restaurantALaCarte": "À-la-carte-Restaurant*"
+    }
+  },
+  "galleryPage": {
+    "eyebrow": "Galerie",
+    "lead": "Von den Zimmern bis zur Aussicht, vom Pool bis zum Dialogue — Momente im Avşar Boutique Hotel.",
+    "all": "Alle",
+    "categories": {
+      "hotel": "Hotel",
+      "rooms": "Zimmer",
+      "dialogue": "Dialogue",
+      "pool": "Pool",
+      "views": "Aussicht"
+    },
+    "filter": "Nach Kategorie filtern",
+    "open": "Foto vergrößern: {label}",
+    "close": "Schließen",
+    "prev": "Vorheriges Foto",
+    "next": "Nächstes Foto",
+    "counter": "{current} / {total}",
+    "emptyTitle": "Fotos folgen in Kürze",
+    "emptyText": "Aktuelle Fotos des Hotels finden Sie hier in Kürze. Bis dahin können Sie die Verfügbarkeit prüfen oder uns auf WhatsApp schreiben."
   }
 }

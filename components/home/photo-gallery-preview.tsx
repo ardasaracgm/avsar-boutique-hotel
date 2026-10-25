@@ -11,7 +11,7 @@ const MIN_PHOTOS = 5;
 /** Asymmetric preview of the first 5 gallery photos. Hidden until enough real photos exist. */
 export function PhotoGalleryPreview() {
   const t = useTranslations("home.gallery");
-  const photos = media.gallery.filter((p) => p.src).slice(0, MIN_PHOTOS);
+  const photos = media.gallery.slice(0, MIN_PHOTOS);
   if (photos.length < MIN_PHOTOS) return null;
 
   const layout = [

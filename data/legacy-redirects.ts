@@ -13,7 +13,7 @@ export const legacyRedirects: { source: string; destination: string }[] = [
   { source: "/services-facilities", destination: "/tr/dialogue" },
   { source: "/avsar_hotel_hakkimizda", destination: "/tr/hakkimizda" },
   { source: "/avsar_butik_otel_galeri", destination: "/tr/galeri" },
-  { source: "/avsar-otel-havuz", destination: "/tr/deneyimler#havuz" },
+  { source: "/avsar-otel-havuz", destination: "/tr/deneyimler#pool" },
   { source: "/butik_otel-avsar_iletisim", destination: "/tr/iletisim" },
   { source: "/gizlilik-sozlesmesi", destination: "/tr/gizlilik" },
   { source: "/kullanim-sozlesmesi", destination: "/tr/kullanim-kosullari" },

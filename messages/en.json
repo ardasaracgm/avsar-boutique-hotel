@@ -308,5 +308,65 @@
     "public": "Also open to guests not staying at the hotel.",
     "menu": "View Menu",
     "menuNote": "The menu opens in a new tab."
+  },
+  "experiencesPage": {
+    "eyebrow": "Avşar Boutique Hotel",
+    "lead": "From the outdoor pool to the spa, from breakfast with a view to Lara’s seaside walks — everything that completes your stay.",
+    "pool": {
+      "title": "Outdoor Pool",
+      "text": "Enjoy the sun and the water in our outdoor pool, lined with sun loungers.",
+      "size": "{length} × {width} m",
+      "depth": "{depth} cm deep",
+      "loungers": "Sun loungers"
+    },
+    "spa": {
+      "title": "Spa & Massage",
+      "text": "Leave the day behind at Avşar Spa. Contact reception for treatments and appointments.",
+      "contact": "Ask us"
+    },
+    "dining": {
+      "title": "Dialogue Coffee & Kitchen",
+      "text": "Breakfast is included in your stay and served facing the sea, just across from the hotel. À la carte dining through the day and live music on most weekends.",
+      "cta": "Discover Dialogue"
+    },
+    "location": {
+      "title": "In Lara, right by the sea",
+      "text": "Our hotel in Şirinyalı is close to Old Lara Road and Terra City, with clifftop walks and the city’s restaurants a short stroll away.",
+      "cta": "View on Map"
+    },
+    "servicesTitle": "Hotel services",
+    "servicesNote": "* Paid service",
+    "services": {
+      "wifi": "Free Wi-Fi",
+      "freeParking": "Free parking",
+      "valetParking": "Valet parking",
+      "reception24h": "24/7 reception",
+      "elevator": "Elevator",
+      "airConditioning": "Air conditioning",
+      "dailyHousekeeping": "Daily housekeeping",
+      "wakeUpService": "Wake-up service",
+      "lobbyBar": "Lobby bar*",
+      "restaurantALaCarte": "À la carte restaurant*"
+    }
+  },
+  "galleryPage": {
+    "eyebrow": "Gallery",
+    "lead": "From the rooms to the view, from the pool to Dialogue — moments at Avşar Boutique Hotel.",
+    "all": "All",
+    "categories": {
+      "hotel": "Hotel",
+      "rooms": "Rooms",
+      "dialogue": "Dialogue",
+      "pool": "Pool",
+      "views": "Views"
+    },
+    "filter": "Filter by category",
+    "open": "Enlarge photo: {label}",
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "counter": "{current} / {total}",
+    "emptyTitle": "Photos coming soon",
+    "emptyText": "Up-to-date photos of the hotel will be here very soon. In the meantime, check availability or message us on WhatsApp."
   }
 }

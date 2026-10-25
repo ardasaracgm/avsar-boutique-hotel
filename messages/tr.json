@@ -308,5 +308,65 @@
     "public": "Konaklamayan misafirlerimize de açıktır.",
     "menu": "Menüyü Görüntüle",
     "menuNote": "Menü yeni sekmede açılır."
+  },
+  "experiencesPage": {
+    "eyebrow": "Avşar Boutique Hotel",
+    "lead": "Açık havuzdan SPA’ya, manzaralı kahvaltıdan Lara’nın sahil yollarına; konaklamanızı tamamlayan her şey.",
+    "pool": {
+      "title": "Açık Havuz",
+      "text": "Şezlonglarla çevrili açık havuzumuzda güneşin ve suyun tadını çıkarın.",
+      "size": "{length} × {width} m",
+      "depth": "{depth} cm derinlik",
+      "loungers": "Şezlonglar"
+    },
+    "spa": {
+      "title": "SPA & Masaj",
+      "text": "Günün yorgunluğunu Avşar Spa’da geride bırakın. Hizmetler ve randevu için resepsiyonumuzla iletişime geçebilirsiniz.",
+      "contact": "Bilgi al"
+    },
+    "dining": {
+      "title": "Dialogue Coffee & Kitchen",
+      "text": "Kahvaltı konaklamanıza dahildir ve otelin hemen karşısında, deniz manzarasına karşı servis edilir. Gün boyu à la carte menü ve çoğu hafta sonu canlı müzik.",
+      "cta": "Dialogue’u Keşfedin"
+    },
+    "location": {
+      "title": "Lara’da, denizin yanı başında",
+      "text": "Şirinyalı’daki otelimiz Eski Lara Caddesi’ne ve Terra City’ye yakın; falezler boyunca yürüyüşler ve şehrin restoranları birkaç adım ötede.",
+      "cta": "Haritada Gör"
+    },
+    "servicesTitle": "Otel hizmetleri",
+    "servicesNote": "* Ücretli hizmet",
+    "services": {
+      "wifi": "Ücretsiz Wi-Fi",
+      "freeParking": "Ücretsiz otopark",
+      "valetParking": "Vale hizmeti",
+      "reception24h": "7/24 resepsiyon",
+      "elevator": "Asansör",
+      "airConditioning": "Klima",
+      "dailyHousekeeping": "Günlük oda temizliği",
+      "wakeUpService": "Uyandırma servisi",
+      "lobbyBar": "Lobby bar*",
+      "restaurantALaCarte": "À la carte restoran*"
+    }
+  },
+  "galleryPage": {
+    "eyebrow": "Galeri",
+    "lead": "Odalardan manzaraya, havuzdan Dialogue’a; Avşar Boutique Hotel’den kareler.",
+    "all": "Tümü",
+    "categories": {
+      "hotel": "Otel",
+      "rooms": "Odalar",
+      "dialogue": "Dialogue",
+      "pool": "Havuz",
+      "views": "Manzara"
+    },
+    "filter": "Kategoriye göre filtrele",
+    "open": "Fotoğrafı büyüt: {label}",
+    "close": "Kapat",
+    "prev": "Önceki fotoğraf",
+    "next": "Sonraki fotoğraf",
+    "counter": "{current} / {total}",
+    "emptyTitle": "Fotoğraflar hazırlanıyor",
+    "emptyText": "Otelimizin güncel fotoğrafları çok yakında burada olacak. O zamana kadar müsaitliği kontrol edebilir ya da bize WhatsApp’tan yazabilirsiniz."
   }
 }
