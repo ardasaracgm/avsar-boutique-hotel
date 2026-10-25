@@ -27,11 +27,98 @@
     "book": "Book Now"
   },
   "home": {
-    "eyebrow": "Antalya · Lara",
-    "title": "A boutique stay facing the sea",
-    "intro": "Our new website is on its way. For live availability and rates, please use our online booking system.",
-    "ctaBook": "Check Availability",
-    "ctaRooms": "Explore Rooms"
+    "hero": {
+      "eyebrow": "Antalya · Lara",
+      "title": "A boutique stay facing the Mediterranean",
+      "text": "In Şirinyalı, with views of the sea and the Taurus Mountains — comfort with a personal touch.",
+      "explore": "Explore"
+    },
+    "booking": {
+      "label": "Availability search",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "guests": "Guests",
+      "adults": "{count, plural, one {# adult} other {# adults}}",
+      "submit": "Check Availability",
+      "note": "You can add children on the booking page.",
+      "invalidRange": "Check-out must be after check-in."
+    },
+    "intro": {
+      "eyebrow": "Avşar Boutique Hotel",
+      "title": "By the sea, in the heart of the city",
+      "text": "Our hotel in Şirinyalı pairs views of the Mediterranean and the Taurus Mountains with the warmth of a boutique hotel. Start the day with breakfast overlooking the sea at Dialogue Coffee & Kitchen, just across the street.",
+      "cta": "Discover the Hotel",
+      "stats": {
+        "rooms": "Rooms",
+        "roomTypes": "Room types",
+        "reception": "Reception"
+      }
+    },
+    "rooms": {
+      "eyebrow": "Our Rooms",
+      "title": "A room for every kind of stay",
+      "all": "All Rooms",
+      "size": "{size} m²",
+      "guests": "{count} guests",
+      "view": {
+        "sea": "Sea view",
+        "land": "Land view"
+      },
+      "details": "View room"
+    },
+    "dialogue": {
+      "eyebrow": "Dialogue Coffee & Kitchen",
+      "title": "Good food, a view and conversation",
+      "text": "Just across from the hotel, on the cliffs, Dialogue Coffee & Kitchen is where you start the day with breakfast facing the sea — and where the same view keeps you company for the rest of the day.",
+      "points": {
+        "breakfast": "Breakfast included for hotel guests",
+        "meals": "Lunch and dinner (paid)",
+        "music": "Live music on most weekends"
+      },
+      "cta": "Discover Dialogue"
+    },
+    "experiences": {
+      "eyebrow": "Experiences",
+      "title": "The details that complete your stay",
+      "items": {
+        "pool": {
+          "title": "Outdoor Pool",
+          "text": "Cool off in the outdoor pool, lined with sun loungers."
+        },
+        "spa": {
+          "title": "Spa & Massage",
+          "text": "Leave the day behind at Avşar Spa."
+        },
+        "breakfast": {
+          "title": "Breakfast with a View",
+          "text": "Breakfast is included in your stay."
+        },
+        "location": {
+          "title": "Lara Location",
+          "text": "Close to Old Lara Road and Terra City."
+        }
+      },
+      "cta": "All Experiences"
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Moments at Avşar",
+      "cta": "View Gallery"
+    },
+    "reviews": {
+      "eyebrow": "Guest Reviews",
+      "title": "What our guests say",
+      "source": "Review on {source}"
+    },
+    "cta": {
+      "title": "Your own escape in Antalya",
+      "text": "Use our online booking system for live rates and availability, or message us on WhatsApp.",
+      "book": "Book Now",
+      "whatsapp": "Message on WhatsApp"
+    },
+    "sticky": {
+      "book": "Check Availability"
+    }
   },
   "pages": {
     "about": {

@@ -27,11 +27,98 @@
     "book": "Buchen"
   },
   "home": {
-    "eyebrow": "Antalya · Lara",
-    "title": "Ein Boutiquehotel mit Blick aufs Meer",
-    "intro": "Unsere neue Website entsteht gerade. Aktuelle Verfügbarkeiten und Preise finden Sie in unserem Online-Buchungssystem.",
-    "ctaBook": "Verfügbarkeit prüfen",
-    "ctaRooms": "Zimmer ansehen"
+    "hero": {
+      "eyebrow": "Antalya · Lara",
+      "title": "Ein Boutiquehotel mit Blick aufs Mittelmeer",
+      "text": "In Şirinyalı, mit Blick auf das Meer und das Taurusgebirge — Komfort mit persönlicher Note.",
+      "explore": "Entdecken"
+    },
+    "booking": {
+      "label": "Verfügbarkeitssuche",
+      "checkIn": "Anreise",
+      "checkOut": "Abreise",
+      "guests": "Gäste",
+      "adults": "{count, plural, one {# Erwachsener} other {# Erwachsene}}",
+      "submit": "Verfügbarkeit prüfen",
+      "note": "Kinder können Sie auf der Buchungsseite hinzufügen.",
+      "invalidRange": "Die Abreise muss nach der Anreise liegen."
+    },
+    "intro": {
+      "eyebrow": "Avşar Boutique Hotel",
+      "title": "Am Meer, mitten in der Stadt",
+      "text": "Unser Hotel in Şirinyalı verbindet den Blick auf das Mittelmeer und das Taurusgebirge mit der persönlichen Atmosphäre eines Boutiquehotels. Der Tag beginnt mit Frühstück mit Meerblick im Dialogue Coffee & Kitchen direkt gegenüber.",
+      "cta": "Das Hotel entdecken",
+      "stats": {
+        "rooms": "Zimmer",
+        "roomTypes": "Zimmertypen",
+        "reception": "Rezeption"
+      }
+    },
+    "rooms": {
+      "eyebrow": "Unsere Zimmer",
+      "title": "Das passende Zimmer für jeden Aufenthalt",
+      "all": "Alle Zimmer",
+      "size": "{size} m²",
+      "guests": "{count} Personen",
+      "view": {
+        "sea": "Meerblick",
+        "land": "Landblick"
+      },
+      "details": "Zimmer ansehen"
+    },
+    "dialogue": {
+      "eyebrow": "Dialogue Coffee & Kitchen",
+      "title": "Genuss, Aussicht und gute Gespräche",
+      "text": "Direkt gegenüber dem Hotel, auf den Klippen, beginnt der Tag im Dialogue Coffee & Kitchen mit Frühstück und Meerblick — und dieselbe Aussicht begleitet Sie auch durch den Rest des Tages.",
+      "points": {
+        "breakfast": "Frühstück für Hotelgäste inklusive",
+        "meals": "Mittag- und Abendessen (kostenpflichtig)",
+        "music": "Livemusik an den meisten Wochenenden"
+      },
+      "cta": "Dialogue entdecken"
+    },
+    "experiences": {
+      "eyebrow": "Erlebnisse",
+      "title": "Details, die Ihren Aufenthalt abrunden",
+      "items": {
+        "pool": {
+          "title": "Außenpool",
+          "text": "Erfrischung im Außenpool mit Sonnenliegen."
+        },
+        "spa": {
+          "title": "Spa & Massage",
+          "text": "Lassen Sie den Tag im Avşar Spa hinter sich."
+        },
+        "breakfast": {
+          "title": "Frühstück mit Aussicht",
+          "text": "Das Frühstück ist im Preis inbegriffen."
+        },
+        "location": {
+          "title": "Lage in Lara",
+          "text": "Nahe der alten Lara-Straße und Terra City."
+        }
+      },
+      "cta": "Alle Erlebnisse"
+    },
+    "gallery": {
+      "eyebrow": "Galerie",
+      "title": "Momente im Avşar",
+      "cta": "Zur Galerie"
+    },
+    "reviews": {
+      "eyebrow": "Gästebewertungen",
+      "title": "Was unsere Gäste sagen",
+      "source": "Bewertung auf {source}"
+    },
+    "cta": {
+      "title": "Ihre persönliche Auszeit in Antalya",
+      "text": "Aktuelle Preise und Verfügbarkeit finden Sie in unserem Online-Buchungssystem — oder schreiben Sie uns auf WhatsApp.",
+      "book": "Jetzt buchen",
+      "whatsapp": "Auf WhatsApp schreiben"
+    },
+    "sticky": {
+      "book": "Verfügbarkeit prüfen"
+    }
   },
   "pages": {
     "about": {

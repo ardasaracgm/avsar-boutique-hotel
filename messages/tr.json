@@ -1,6 +1,6 @@
 {
   "meta": {
-    "description": "Antalya Lara'da, Akdeniz ve Toros Dağları manzaralı butik otel. Oda-kahvaltı konaklama, açık havuz, SPA ve Dialogue Coffee & Kitchen."
+    "description": "Antalya Lara’da, Akdeniz ve Toros Dağları manzaralı butik otel. Oda-kahvaltı konaklama, açık havuz, SPA ve Dialogue Coffee & Kitchen."
   },
   "a11y": {
     "skipToContent": "İçeriğe geç",
@@ -9,7 +9,7 @@
     "closeMenu": "Menüyü kapat",
     "language": "Dil seçimi",
     "currentLanguage": "Seçili dil: {language}",
-    "opensWhatsapp": "WhatsApp'ta yazışma başlatır",
+    "opensWhatsapp": "WhatsApp’ta yazışma başlatır",
     "opensBooking": "Online rezervasyon sistemini açar"
   },
   "nav": {
@@ -27,11 +27,98 @@
     "book": "Rezervasyon"
   },
   "home": {
-    "eyebrow": "Antalya · Lara",
-    "title": "Denize bakan butik bir konaklama",
-    "intro": "Yeni web sitemiz hazırlanıyor. Güncel müsaitlik ve fiyatlar için online rezervasyon sistemimizi kullanabilirsiniz.",
-    "ctaBook": "Müsaitlik Sorgula",
-    "ctaRooms": "Odaları İncele"
+    "hero": {
+      "eyebrow": "Antalya · Lara",
+      "title": "Akdeniz’e açılan butik bir konaklama",
+      "text": "Şirinyalı’da, deniz ve Toros Dağları manzarasıyla konfor ve samimiyet bir arada.",
+      "explore": "Keşfet"
+    },
+    "booking": {
+      "label": "Müsaitlik arama",
+      "checkIn": "Giriş Tarihi",
+      "checkOut": "Çıkış Tarihi",
+      "guests": "Misafir",
+      "adults": "{count, plural, one {# yetişkin} other {# yetişkin}}",
+      "submit": "Müsaitlik Sorgula",
+      "note": "Çocuk sayısını rezervasyon ekranında ekleyebilirsiniz.",
+      "invalidRange": "Çıkış tarihi giriş tarihinden sonra olmalı."
+    },
+    "intro": {
+      "eyebrow": "Avşar Boutique Hotel",
+      "title": "Denizin yanı başında, şehrin içinde",
+      "text": "Şirinyalı’daki otelimiz, Akdeniz ve Toros Dağları manzarasını samimi bir butik otel atmosferiyle buluşturuyor. Güne, hemen karşımızdaki Dialogue Coffee & Kitchen’da manzaraya karşı kahvaltıyla başlarsınız.",
+      "cta": "Otelimizi Keşfedin",
+      "stats": {
+        "rooms": "Oda",
+        "roomTypes": "Oda tipi",
+        "reception": "Resepsiyon"
+      }
+    },
+    "rooms": {
+      "eyebrow": "Odalarımız",
+      "title": "Her konaklamaya özel bir oda",
+      "all": "Tüm Odalar",
+      "size": "{size} m²",
+      "guests": "{count} kişi",
+      "view": {
+        "sea": "Deniz manzarası",
+        "land": "Kara manzarası"
+      },
+      "details": "Odayı incele"
+    },
+    "dialogue": {
+      "eyebrow": "Dialogue Coffee & Kitchen",
+      "title": "Lezzet, manzara ve sohbet aynı sofrada",
+      "text": "Otelin hemen karşısında, falezlerin üzerindeki Dialogue Coffee & Kitchen’da güne deniz manzarasına karşı kahvaltıyla başlayın; günün geri kalanında da aynı manzaraya eşlik eden lezzetler sizi bekliyor.",
+      "points": {
+        "breakfast": "Konaklayan misafirlere kahvaltı dahil",
+        "meals": "Öğle ve akşam yemeği (ücretli)",
+        "music": "Çoğu hafta sonu canlı müzik"
+      },
+      "cta": "Dialogue’u Keşfedin"
+    },
+    "experiences": {
+      "eyebrow": "Deneyimler",
+      "title": "Konaklamanızı tamamlayan ayrıntılar",
+      "items": {
+        "pool": {
+          "title": "Açık Havuz",
+          "text": "Şezlonglarla çevrili açık havuzda serinleyin."
+        },
+        "spa": {
+          "title": "SPA & Masaj",
+          "text": "Günün yorgunluğunu Avşar Spa’da geride bırakın."
+        },
+        "breakfast": {
+          "title": "Manzaralı Kahvaltı",
+          "text": "Kahvaltı konaklamanıza dahildir."
+        },
+        "location": {
+          "title": "Lara Konumu",
+          "text": "Eski Lara Caddesi ve Terra City yakınında."
+        }
+      },
+      "cta": "Tüm Deneyimler"
+    },
+    "gallery": {
+      "eyebrow": "Galeri",
+      "title": "Avşar’dan kareler",
+      "cta": "Galeriyi Gör"
+    },
+    "reviews": {
+      "eyebrow": "Misafir Yorumları",
+      "title": "Misafirlerimiz ne diyor?",
+      "source": "{source} yorumu"
+    },
+    "cta": {
+      "title": "Antalya’da size özel bir kaçamak",
+      "text": "Güncel fiyat ve müsaitlik için online rezervasyon sistemimizi kullanın ya da bize WhatsApp’tan yazın.",
+      "book": "Rezervasyon Yap",
+      "whatsapp": "WhatsApp’tan Yazın"
+    },
+    "sticky": {
+      "book": "Müsaitlik Sorgula"
+    }
   },
   "pages": {
     "about": {
@@ -89,7 +176,7 @@
     }
   },
   "footer": {
-    "tagline": "Antalya Lara'da, Akdeniz ve Toros Dağları manzaralı butik otel.",
+    "tagline": "Antalya Lara’da, Akdeniz ve Toros Dağları manzaralı butik otel.",
     "explore": "Keşfedin",
     "information": "Bilgi",
     "contact": "İletişim",

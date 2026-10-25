@@ -2,7 +2,7 @@ import type { ComponentPropsWithoutRef, ReactNode } from "react";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/cn";
 
-export type ButtonVariant = "primary" | "outline" | "outline-light" | "ghost";
+export type ButtonVariant = "primary" | "accent" | "outline" | "outline-light" | "ghost";
 export type ButtonSize = "sm" | "md";
 
 const base =
@@ -10,6 +10,7 @@ const base =
 
 const variants: Record<ButtonVariant, string> = {
   primary: "bg-navy text-ivory hover:bg-navy-soft",
+  accent: "bg-sand text-navy hover:bg-ivory",
   outline: "border border-sand-deep text-sand-deep hover:bg-sand-deep hover:text-ivory",
   "outline-light": "border border-ivory/70 text-ivory hover:bg-ivory hover:text-navy",
   ghost: "text-navy underline-offset-8 hover:underline",
