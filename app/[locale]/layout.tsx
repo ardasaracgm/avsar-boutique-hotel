@@ -4,9 +4,9 @@ import { locale as rootLocale } from "next/root-params";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { hotel } from "@/data/hotel";
-import { localeDirection, localeTag, routing } from "@/i18n/routing";
+import { localeDirection, routing } from "@/i18n/routing";
 import { bodyFont, headingFont } from "@/lib/fonts";
-import { localizedAlternates } from "@/lib/seo";
+import { baseOpenGraph, localizedAlternates } from "@/lib/seo";
 import { isSiteLive, siteUrl } from "@/lib/site";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
@@ -34,11 +34,8 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: localizedAlternates("/", locale),
     // Pre-launch: keep every page out of search engines until NEXT_PUBLIC_SITE_LIVE=true.
     robots: isSiteLive ? undefined : { index: false, follow: false },
-    openGraph: {
-      type: "website",
-      siteName: hotel.name,
-      locale: localeTag[locale].replace("-", "_"),
-    },
+    openGraph: baseOpenGraph(locale),
+    twitter: { card: "summary_large_image", images: ["/og.png"] },
     formatDetection: { telephone: false },
   };
 }

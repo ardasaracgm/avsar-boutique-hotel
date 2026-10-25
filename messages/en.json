@@ -144,7 +144,7 @@
       "title": "Contact"
     },
     "privacy": {
-      "title": "Privacy Policy"
+      "title": "Privacy & Cookie Policy"
     },
     "terms": {
       "title": "Terms of Use"
@@ -477,6 +477,221 @@
       "invalidEmail": "Please enter a valid email address.",
       "consentRequired": "Please tick the box to continue.",
       "unavailable": "The contact form will be available soon. Meanwhile, reach us by phone, WhatsApp or email."
+    }
+  },
+  "legal": {
+    "meta": {
+      "updated": "Last updated: {date}",
+      "disclaimer": "The Turkish version of this text prevails."
+    },
+    "kvkk": {
+      "intro": "Under Turkish Personal Data Protection Law No. 6698 (“KVKK”), {hotel} explains below how we process the personal data of people who visit hotelavsar.com and contact us.",
+      "sections": [
+        {
+          "title": "1. Data controller",
+          "body": [
+            "Your personal data is processed by {company} as data controller.",
+            "Address: {address} · Email: {email} · Phone: {phone}"
+          ],
+          "list": []
+        },
+        {
+          "title": "2. Personal data we process",
+          "body": [
+            "Through the website we process:"
+          ],
+          "list": [
+            "Identity and contact details: full name, email address, phone number (when you contact us by form, email or WhatsApp)",
+            "Request content: the message and preferences you send us",
+            "Security data: IP address, browser and device information, access logs",
+            "Your language preference (through a functional cookie only)"
+          ]
+        },
+        {
+          "title": "3. Purposes",
+          "list": [
+            "Answering your questions and requests and providing information about your stay",
+            "Keeping the website secure and working properly",
+            "Meeting legal obligations (e.g. Law No. 5651)",
+            "Responding to requests from competent authorities"
+          ],
+          "body": []
+        },
+        {
+          "title": "4. Legal grounds",
+          "body": [
+            "We process your data under Article 5/2 KVKK: where necessary to establish or perform a contract (c), to comply with a legal obligation (ç), and for our legitimate interests provided your fundamental rights are not harmed (f). In any other case we ask for your explicit consent."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Transfers",
+          "body": [
+            "Your data may be shared, only for the purposes above, with Vercel Inc. (USA), which hosts the website, with the email service provider that delivers contact-form messages, and with competent public authorities. Transfers to providers abroad are made in line with Article 9 KVKK.",
+            "Online booking takes place in a separate booking system (ElektraWeb – avsarhotel.rezervasyonal.com); the privacy notice on that site applies to data processed there. You are directed to third-party services such as WhatsApp and Google Maps only by your own choice."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. How we collect data",
+          "body": [
+            "You provide your data through website forms, email, phone and WhatsApp; security data is collected automatically through server logs and cookies."
+          ],
+          "list": []
+        },
+        {
+          "title": "7. Retention",
+          "body": [
+            "We keep personal data for as long as the purpose requires and for the periods set by law; afterwards it is deleted, destroyed or anonymised."
+          ],
+          "list": []
+        },
+        {
+          "title": "8. Your rights",
+          "body": [
+            "Under Article 11 KVKK you may apply to the data controller to:"
+          ],
+          "list": [
+            "Learn whether your personal data is processed",
+            "Request information if it has been processed",
+            "Learn the purpose of processing and whether it is used accordingly",
+            "Know the third parties in Türkiye or abroad to whom it is transferred",
+            "Request correction of incomplete or inaccurate data",
+            "Request deletion or destruction under the conditions of Article 7 KVKK",
+            "Request that corrections, deletions or destructions be notified to the third parties concerned",
+            "Object to an outcome against you resulting solely from automated analysis",
+            "Claim compensation for damage caused by unlawful processing"
+          ]
+        },
+        {
+          "title": "9. How to apply",
+          "body": [
+            "Send your request in writing, with information that identifies you, to {address} or to {email}. We will respond free of charge within 30 days at the latest."
+          ],
+          "list": []
+        }
+      ]
+    },
+    "privacy": {
+      "intro": "This policy explains what information is processed when you use hotelavsar.com, which cookies we use and which third-party services are involved. Details on personal data processing are in our Personal Data Notice (KVKK).",
+      "sections": [
+        {
+          "title": "1. Information we collect",
+          "body": [
+            "The site has no user accounts and takes no payments. We only process information you choose to send us (contact form, email, WhatsApp) and technical logs needed to run the site securely (IP address, browser information, time of access)."
+          ],
+          "list": []
+        },
+        {
+          "title": "2. Cookies",
+          "body": [
+            "We use no advertising or analytics cookies. A single functional cookie (NEXT_LOCALE) remembers the language you choose. It is necessary for the site to work and is not used for profiling.",
+            "You can delete or block cookies in your browser settings; your language choice may then not be remembered."
+          ],
+          "list": []
+        },
+        {
+          "title": "3. Third-party services",
+          "body": [
+            "The following services are only used when you choose to, and are subject to their own privacy policies:"
+          ],
+          "list": [
+            "Online booking: ElektraWeb (avsarhotel.rezervasyonal.com)",
+            "Map: Google Maps – no request is sent to Google until you press “Show map”",
+            "Messaging: WhatsApp (Meta)",
+            "Dialogue Coffee & Kitchen menu: FineDine"
+          ]
+        },
+        {
+          "title": "4. Security",
+          "body": [
+            "The site runs only over an encrypted connection (HTTPS). We take reasonable technical and organisational measures to protect your data."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Changes",
+          "body": [
+            "We may update this policy when needed. The current version is always published on this page."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. Contact",
+          "body": [
+            "For questions, email {email} or call {phone}."
+          ],
+          "list": []
+        }
+      ]
+    },
+    "terms": {
+      "intro": "By using hotelavsar.com you accept the terms below. The site is operated by {company}.",
+      "sections": [
+        {
+          "title": "1. Purpose of the site",
+          "body": [
+            "This site provides information about {hotel} and directs you to our online booking system."
+          ],
+          "list": []
+        },
+        {
+          "title": "2. Content",
+          "body": [
+            "We take care to keep the information accurate and up to date; however, room layouts, facilities and opening hours may change without notice. Images are for information purposes."
+          ],
+          "list": []
+        },
+        {
+          "title": "3. Rates and bookings",
+          "body": [
+            "Rates, availability, payment and cancellation terms are shown in our online booking system (ElektraWeb), whose terms apply when you book. For changes to your booking, please contact the hotel directly."
+          ],
+          "list": []
+        },
+        {
+          "title": "4. Use of the site",
+          "body": [
+            "You agree to use the site lawfully, to provide accurate information, and not to submit content that is unlawful, harmful to the site or infringes the rights of others."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Intellectual property",
+          "body": [
+            "Texts, images, logos and designs on the site belong to {company} or its licensors. They may not be copied or distributed without permission except for personal, non-commercial use."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. External links",
+          "body": [
+            "The site may link to third-party websites. We are not responsible for their content or practices."
+          ],
+          "list": []
+        },
+        {
+          "title": "7. Liability",
+          "body": [
+            "The site is provided “as is”. We do not guarantee uninterrupted or error-free operation and, to the extent permitted by law, accept no liability for indirect damage arising from its use."
+          ],
+          "list": []
+        },
+        {
+          "title": "8. Changes",
+          "body": [
+            "We may update these terms when needed; the current version takes effect when published on this page."
+          ],
+          "list": []
+        },
+        {
+          "title": "9. Governing law",
+          "body": [
+            "These terms are governed by the laws of the Republic of Türkiye. The courts and enforcement offices of Antalya have jurisdiction."
+          ],
+          "list": []
+        }
+      ]
     }
   }
 }

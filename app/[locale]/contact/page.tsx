@@ -13,8 +13,8 @@ import { Container } from "@/components/ui/container";
 import { ButtonAnchor } from "@/components/ui/button";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [base, t] = await Promise.all([pageMetadata("/contact", "contact"), getTranslations("contactPage")]);
-  return { ...base, description: t("lead") };
+  const t = await getTranslations("contactPage");
+  return pageMetadata("/contact", "contact", t("lead"));
 }
 
 export default async function ContactPage() {

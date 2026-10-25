@@ -10,8 +10,8 @@ import { Reveal } from "@/components/ui/reveal";
 import { Heading } from "@/components/ui/typography";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [base, t] = await Promise.all([pageMetadata("/antalya-guide", "guide"), getTranslations("guidePage")]);
-  return { ...base, description: t("lead") };
+  const t = await getTranslations("guidePage");
+  return pageMetadata("/antalya-guide", "guide", t("lead"));
 }
 
 export default async function GuidePage() {

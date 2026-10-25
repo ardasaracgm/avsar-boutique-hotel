@@ -28,8 +28,8 @@ import { ButtonAnchor } from "@/components/ui/button";
 import { ButtonLink } from "@/components/ui/button-link";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [base, t] = await Promise.all([pageMetadata("/experiences", "experiences"), getTranslations("experiencesPage")]);
-  return { ...base, description: t("lead") };
+  const t = await getTranslations("experiencesPage");
+  return pageMetadata("/experiences", "experiences", t("lead"));
 }
 
 const serviceIcons: Partial<Record<(typeof hotel.facilities.general)[number], LucideIcon>> = {

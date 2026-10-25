@@ -144,7 +144,7 @@
       "title": "İletişim"
     },
     "privacy": {
-      "title": "Gizlilik Politikası"
+      "title": "Gizlilik ve Çerez Politikası"
     },
     "terms": {
       "title": "Kullanım Koşulları"
@@ -477,6 +477,221 @@
       "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
       "consentRequired": "Devam etmek için onay kutusunu işaretleyin.",
       "unavailable": "İletişim formu çok yakında aktif olacak. Şimdilik telefon, WhatsApp veya e-posta ile ulaşabilirsiniz."
+    }
+  },
+  "legal": {
+    "meta": {
+      "updated": "Son güncelleme: {date}",
+      "disclaimer": "Bu metnin Türkçe sürümü esas alınır."
+    },
+    "kvkk": {
+      "intro": "6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) uyarınca, {hotel} olarak hotelavsar.com web sitesini ziyaret eden ve bizimle iletişime geçen kişilerin kişisel verilerini nasıl işlediğimizi açıklamak isteriz.",
+      "sections": [
+        {
+          "title": "1. Veri sorumlusu",
+          "body": [
+            "Kişisel verileriniz, veri sorumlusu sıfatıyla {company} tarafından işlenmektedir.",
+            "Adres: {address} · E-posta: {email} · Telefon: {phone}"
+          ],
+          "list": []
+        },
+        {
+          "title": "2. İşlenen kişisel veriler",
+          "body": [
+            "Web sitesi üzerinden işlenen veriler şunlardır:"
+          ],
+          "list": [
+            "Kimlik ve iletişim bilgileri: ad soyad, e-posta adresi, telefon numarası (iletişim formu, e-posta veya WhatsApp ile bize ulaştığınızda)",
+            "Talep içeriği: bize ilettiğiniz mesaj ve tercihleriniz",
+            "İşlem güvenliği bilgileri: IP adresi, tarayıcı ve cihaz bilgileri, erişim kayıtları",
+            "Dil tercihiniz (yalnızca işlevsel bir çerezle)"
+          ]
+        },
+        {
+          "title": "3. İşleme amaçları",
+          "list": [
+            "Soru ve taleplerinize yanıt vermek, konaklamanız hakkında bilgi sağlamak",
+            "Web sitesinin güvenliğini ve düzgün çalışmasını sağlamak",
+            "Mevzuattan doğan yükümlülükleri yerine getirmek (ör. 5651 sayılı Kanun)",
+            "Yetkili kurumların taleplerini karşılamak"
+          ],
+          "body": []
+        },
+        {
+          "title": "4. Hukuki sebepler",
+          "body": [
+            "Kişisel verileriniz KVKK’nın 5/2. maddesindeki; bir sözleşmenin kurulması veya ifasıyla doğrudan ilgili olması (c), hukuki yükümlülüğün yerine getirilmesi (ç) ve temel hak ve özgürlüklerinize zarar vermemek kaydıyla meşru menfaatimiz (f) hukuki sebeplerine dayanılarak işlenir. Bunların dışında kalan durumlarda açık rızanıza başvurulur."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Aktarım",
+          "body": [
+            "Kişisel verileriniz yalnızca yukarıdaki amaçlarla sınırlı olarak; web sitesinin barındırma hizmetini sağlayan Vercel Inc. (ABD), iletişim formu e-postalarını ileten e-posta hizmet sağlayıcısı ve yetkili kamu kurum ve kuruluşlarıyla paylaşılabilir. Yurt dışındaki hizmet sağlayıcılara aktarım KVKK’nın 9. maddesine uygun olarak yapılır.",
+            "Online rezervasyon, ayrı bir rezervasyon sistemi (ElektraWeb – avsarhotel.rezervasyonal.com) üzerinden yapılır; bu sistemde işlenen veriler için ilgili sitedeki aydınlatma metni geçerlidir. WhatsApp ve Google Haritalar gibi üçüncü taraf hizmetlere yalnızca sizin tercihinizle yönlendirilirsiniz."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. Toplama yöntemi",
+          "body": [
+            "Kişisel verileriniz web sitesindeki formlar, e-posta, telefon ve WhatsApp aracılığıyla sizin tarafınızdan; işlem güvenliği bilgileri ise sunucu kayıtları ve çerezler gibi otomatik yollarla toplanır."
+          ],
+          "list": []
+        },
+        {
+          "title": "7. Saklama süresi",
+          "body": [
+            "Kişisel verileriniz, işleme amacının gerektirdiği süre ve ilgili mevzuatta öngörülen süreler boyunca saklanır; sürenin sonunda silinir, yok edilir veya anonim hale getirilir."
+          ],
+          "list": []
+        },
+        {
+          "title": "8. Haklarınız",
+          "body": [
+            "KVKK’nın 11. maddesi uyarınca veri sorumlusuna başvurarak:"
+          ],
+          "list": [
+            "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+            "İşlenmişse buna ilişkin bilgi talep etme",
+            "İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme",
+            "Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme",
+            "Eksik veya yanlış işlenmişse düzeltilmesini isteme",
+            "KVKK’nın 7. maddesindeki şartlar çerçevesinde silinmesini veya yok edilmesini isteme",
+            "Düzeltme, silme ve yok etme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme",
+            "Münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonuç çıkmasına itiraz etme",
+            "Kanuna aykırı işleme nedeniyle zarara uğramanız hâlinde zararın giderilmesini talep etme"
+          ]
+        },
+        {
+          "title": "9. Başvuru",
+          "body": [
+            "Taleplerinizi, kimliğinizi tespit edici bilgilerle birlikte yazılı olarak {address} adresine veya {email} adresine iletebilirsiniz. Başvurunuz en geç 30 gün içinde ücretsiz olarak sonuçlandırılır."
+          ],
+          "list": []
+        }
+      ]
+    },
+    "privacy": {
+      "intro": "Bu politika, hotelavsar.com web sitesini kullanırken hangi bilgilerin işlendiğini, çerezleri ve üçüncü taraf hizmetleri açıklar. Kişisel verilerinizin işlenmesine ilişkin ayrıntılar KVKK Aydınlatma Metni’nde yer alır.",
+      "sections": [
+        {
+          "title": "1. Topladığımız bilgiler",
+          "body": [
+            "Sitede üyelik veya ödeme işlemi bulunmaz. Yalnızca bize kendi isteğinizle ilettiğiniz bilgileri (iletişim formu, e-posta, WhatsApp) ve sitenin güvenli çalışması için gerekli teknik kayıtları (IP adresi, tarayıcı bilgisi, erişim zamanı) işleriz."
+          ],
+          "list": []
+        },
+        {
+          "title": "2. Çerezler",
+          "body": [
+            "Sitemiz reklam veya analiz çerezi kullanmaz. Yalnızca seçtiğiniz dili hatırlamak için işlevsel bir çerez (NEXT_LOCALE) kullanılır. Bu çerez sitenin çalışması için gereklidir ve kişisel profil oluşturmak amacıyla kullanılmaz.",
+            "Tarayıcınızın ayarlarından çerezleri silebilir veya engelleyebilirsiniz; bu durumda dil seçiminiz hatırlanmayabilir."
+          ],
+          "list": []
+        },
+        {
+          "title": "3. Üçüncü taraf hizmetler",
+          "body": [
+            "Aşağıdaki hizmetler yalnızca siz kullandığınızda devreye girer ve kendi gizlilik politikalarına tabidir:"
+          ],
+          "list": [
+            "Online rezervasyon: ElektraWeb (avsarhotel.rezervasyonal.com)",
+            "Harita: Google Haritalar – “Haritayı göster” düğmesine basana kadar Google’a hiçbir istek gönderilmez",
+            "Mesajlaşma: WhatsApp (Meta)",
+            "Dialogue Coffee & Kitchen menüsü: FineDine"
+          ]
+        },
+        {
+          "title": "4. Güvenlik",
+          "body": [
+            "Site yalnızca şifreli bağlantı (HTTPS) üzerinden çalışır. Verilerinizi korumak için makul teknik ve idari tedbirleri alırız."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Değişiklikler",
+          "body": [
+            "Bu politikayı gerektiğinde güncelleyebiliriz. Güncel sürüm her zaman bu sayfada yayımlanır."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. İletişim",
+          "body": [
+            "Sorularınız için {email} adresine yazabilir veya {phone} numarasından bize ulaşabilirsiniz."
+          ],
+          "list": []
+        }
+      ]
+    },
+    "terms": {
+      "intro": "hotelavsar.com web sitesini kullanarak aşağıdaki koşulları kabul etmiş sayılırsınız. Site, {company} tarafından işletilmektedir.",
+      "sections": [
+        {
+          "title": "1. Sitenin amacı",
+          "body": [
+            "Bu site, {hotel} hakkında bilgi vermek ve online rezervasyon sistemine yönlendirmek amacıyla yayınlanmaktadır."
+          ],
+          "list": []
+        },
+        {
+          "title": "2. İçerik",
+          "body": [
+            "Sitedeki bilgilerin doğru ve güncel olması için özen gösteririz; ancak oda düzeni, olanaklar ve hizmet saatleri önceden bildirilmeksizin değişebilir. Görseller bilgilendirme amaçlıdır."
+          ],
+          "list": []
+        },
+        {
+          "title": "3. Fiyatlar ve rezervasyon",
+          "body": [
+            "Fiyat, müsaitlik, ödeme ve iptal koşulları online rezervasyon sistemimizde (ElektraWeb) gösterilir ve rezervasyon sırasında bu sistemin koşulları geçerlidir. Rezervasyonunuzla ilgili değişiklikler için doğrudan otelimizle iletişime geçebilirsiniz."
+          ],
+          "list": []
+        },
+        {
+          "title": "4. Kullanım kuralları",
+          "body": [
+            "Siteyi hukuka uygun şekilde kullanmayı; bize ilettiğiniz bilgilerin doğru olmasını; siteye zarar verecek, hukuka aykırı veya üçüncü kişilerin haklarını ihlal eden içerik göndermemeyi kabul edersiniz."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Fikri mülkiyet",
+          "body": [
+            "Sitedeki metin, görsel, logo ve tasarımların hak sahibi {company} veya lisans verenleridir. Kişisel ve ticari olmayan kullanım dışında izinsiz kopyalanamaz ve dağıtılamaz."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. Dış bağlantılar",
+          "body": [
+            "Sitede üçüncü taraf sitelere bağlantılar bulunabilir. Bu sitelerin içeriği ve uygulamalarından sorumlu değiliz."
+          ],
+          "list": []
+        },
+        {
+          "title": "7. Sorumluluk",
+          "body": [
+            "Site “olduğu gibi” sunulur. Kesintisiz veya hatasız çalışacağı garanti edilmez; mevzuatın izin verdiği ölçüde sitenin kullanımından doğabilecek dolaylı zararlardan sorumluluk kabul edilmez."
+          ],
+          "list": []
+        },
+        {
+          "title": "8. Değişiklikler",
+          "body": [
+            "Bu koşulları gerektiğinde güncelleyebiliriz; güncel sürüm bu sayfada yayımlandığı anda yürürlüğe girer."
+          ],
+          "list": []
+        },
+        {
+          "title": "9. Uygulanacak hukuk",
+          "body": [
+            "Bu koşullar Türkiye Cumhuriyeti hukukuna tabidir. Uyuşmazlıklarda Antalya mahkemeleri ve icra daireleri yetkilidir."
+          ],
+          "list": []
+        }
+      ]
     }
   }
 }

@@ -21,7 +21,8 @@ import { hotel } from "@/data/hotel";
 import { media } from "@/data/media";
 import { getRoom, rooms, type Room } from "@/data/rooms";
 import type { RoomMessageSlug } from "@/i18n/types";
-import { absoluteUrl, localizedAlternates } from "@/lib/seo";
+import { absoluteUrl } from "@/lib/seo";
+import { seoMetadata } from "@/lib/page-metadata";
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { BookingBar } from "@/components/booking/booking-bar";
 import { Container } from "@/components/ui/container";
@@ -54,14 +55,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const room = getRoom(slug);
   if (!room) return {};
-  const locale = await getLocale();
-  const t = await getTranslations({ locale, namespace: "rooms" });
+  const t = await getTranslations("rooms");
   const key = room.slug as RoomMessageSlug;
-  return {
+  return seoMetadata({
+    href: { pathname: "/rooms/[slug]", params: { slug: room.slug } },
     title: t(`${key}.name`),
     description: t(`${key}.description`),
-    alternates: localizedAlternates({ pathname: "/rooms/[slug]", params: { slug: room.slug } }, locale),
-  };
+  });
 }
 
 /** Up to 3 other rooms: same view first, then by sort order. */

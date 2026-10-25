@@ -14,8 +14,8 @@ import { ButtonAnchor } from "@/components/ui/button";
 import { ButtonLink } from "@/components/ui/button-link";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [base, t] = await Promise.all([pageMetadata("/about", "about"), getTranslations("aboutPage")]);
-  return { ...base, description: t("lead") };
+  const t = await getTranslations("aboutPage");
+  return pageMetadata("/about", "about", t("lead"));
 }
 
 const why = [

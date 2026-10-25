@@ -144,7 +144,7 @@
       "title": "Kontakt"
     },
     "privacy": {
-      "title": "Datenschutzerklärung"
+      "title": "Datenschutz- und Cookie-Richtlinie"
     },
     "terms": {
       "title": "Nutzungsbedingungen"
@@ -477,6 +477,221 @@
       "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
       "consentRequired": "Bitte setzen Sie das Häkchen, um fortzufahren.",
       "unavailable": "Das Kontaktformular ist bald verfügbar. Bis dahin erreichen Sie uns per Telefon, WhatsApp oder E-Mail."
+    }
+  },
+  "legal": {
+    "meta": {
+      "updated": "Zuletzt aktualisiert: {date}",
+      "disclaimer": "Maßgeblich ist die türkische Fassung dieses Textes."
+    },
+    "kvkk": {
+      "intro": "Gemäß dem türkischen Gesetz Nr. 6698 zum Schutz personenbezogener Daten („KVKK“) erläutert {hotel}, wie wir personenbezogene Daten von Besuchern der Website hotelavsar.com und von Personen, die uns kontaktieren, verarbeiten.",
+      "sections": [
+        {
+          "title": "1. Verantwortlicher",
+          "body": [
+            "Verantwortlicher für die Verarbeitung Ihrer Daten ist {company}.",
+            "Adresse: {address} · E-Mail: {email} · Telefon: {phone}"
+          ],
+          "list": []
+        },
+        {
+          "title": "2. Verarbeitete Daten",
+          "body": [
+            "Über die Website verarbeiten wir:"
+          ],
+          "list": [
+            "Identitäts- und Kontaktdaten: Name, E-Mail-Adresse, Telefonnummer (wenn Sie uns per Formular, E-Mail oder WhatsApp kontaktieren)",
+            "Inhalt Ihrer Anfrage: Ihre Nachricht und Wünsche",
+            "Sicherheitsdaten: IP-Adresse, Browser- und Geräteinformationen, Zugriffsprotokolle",
+            "Ihre Spracheinstellung (nur über ein funktionales Cookie)"
+          ]
+        },
+        {
+          "title": "3. Zwecke",
+          "list": [
+            "Beantwortung Ihrer Fragen und Anfragen, Informationen zu Ihrem Aufenthalt",
+            "Sicherer und ordnungsgemäßer Betrieb der Website",
+            "Erfüllung gesetzlicher Pflichten (z. B. Gesetz Nr. 5651)",
+            "Beantwortung von Anfragen zuständiger Behörden"
+          ],
+          "body": []
+        },
+        {
+          "title": "4. Rechtsgrundlagen",
+          "body": [
+            "Wir verarbeiten Ihre Daten gemäß Art. 5 Abs. 2 KVKK: soweit für den Abschluss oder die Erfüllung eines Vertrags erforderlich (c), zur Erfüllung einer rechtlichen Verpflichtung (ç) und aufgrund unseres berechtigten Interesses, sofern Ihre Grundrechte nicht beeinträchtigt werden (f). In allen anderen Fällen holen wir Ihre ausdrückliche Einwilligung ein."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Übermittlung",
+          "body": [
+            "Ihre Daten können ausschließlich zu den oben genannten Zwecken an Vercel Inc. (USA) als Hosting-Anbieter, an den E-Mail-Dienstleister für Kontaktformular-Nachrichten sowie an zuständige Behörden übermittelt werden. Übermittlungen ins Ausland erfolgen gemäß Art. 9 KVKK.",
+            "Online-Buchungen erfolgen über ein separates Buchungssystem (ElektraWeb – avsarhotel.rezervasyonal.com); für dort verarbeitete Daten gilt der Datenschutzhinweis dieser Website. Zu Diensten Dritter wie WhatsApp und Google Maps gelangen Sie nur auf eigenen Wunsch."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. Erhebung",
+          "body": [
+            "Sie stellen uns Ihre Daten über Formulare, E-Mail, Telefon und WhatsApp bereit; Sicherheitsdaten werden automatisch über Serverprotokolle und Cookies erhoben."
+          ],
+          "list": []
+        },
+        {
+          "title": "7. Speicherdauer",
+          "body": [
+            "Wir speichern personenbezogene Daten so lange, wie es der Zweck erfordert und gesetzliche Fristen vorsehen; danach werden sie gelöscht, vernichtet oder anonymisiert."
+          ],
+          "list": []
+        },
+        {
+          "title": "8. Ihre Rechte",
+          "body": [
+            "Gemäß Art. 11 KVKK können Sie beim Verantwortlichen beantragen:"
+          ],
+          "list": [
+            "Auskunft, ob Ihre Daten verarbeitet werden",
+            "Informationen über eine erfolgte Verarbeitung",
+            "Auskunft über den Zweck und die zweckgemäße Verwendung",
+            "Auskunft über Empfänger im In- und Ausland",
+            "Berichtigung unvollständiger oder unrichtiger Daten",
+            "Löschung oder Vernichtung unter den Voraussetzungen von Art. 7 KVKK",
+            "Mitteilung von Berichtigungen, Löschungen oder Vernichtungen an Empfänger",
+            "Widerspruch gegen ein nachteiliges Ergebnis aus ausschließlich automatisierter Auswertung",
+            "Ersatz von Schäden aus rechtswidriger Verarbeitung"
+          ]
+        },
+        {
+          "title": "9. Antragstellung",
+          "body": [
+            "Senden Sie Ihren Antrag schriftlich mit Angaben zu Ihrer Identifizierung an {address} oder an {email}. Wir antworten kostenlos innerhalb von höchstens 30 Tagen."
+          ],
+          "list": []
+        }
+      ]
+    },
+    "privacy": {
+      "intro": "Diese Erklärung beschreibt, welche Informationen bei der Nutzung von hotelavsar.com verarbeitet werden, welche Cookies wir verwenden und welche Dienste Dritter beteiligt sind. Einzelheiten zur Verarbeitung personenbezogener Daten finden Sie im Datenschutzhinweis (KVKK).",
+      "sections": [
+        {
+          "title": "1. Erhobene Informationen",
+          "body": [
+            "Die Website hat keine Benutzerkonten und wickelt keine Zahlungen ab. Wir verarbeiten nur Informationen, die Sie uns freiwillig senden (Kontaktformular, E-Mail, WhatsApp), sowie technische Protokolle für den sicheren Betrieb (IP-Adresse, Browserinformationen, Zugriffszeit)."
+          ],
+          "list": []
+        },
+        {
+          "title": "2. Cookies",
+          "body": [
+            "Wir verwenden keine Werbe- oder Analyse-Cookies. Ein einziges funktionales Cookie (NEXT_LOCALE) speichert die gewählte Sprache. Es ist für den Betrieb der Website erforderlich und dient nicht der Profilbildung.",
+            "Sie können Cookies in Ihren Browsereinstellungen löschen oder blockieren; Ihre Sprachwahl wird dann eventuell nicht gespeichert."
+          ],
+          "list": []
+        },
+        {
+          "title": "3. Dienste Dritter",
+          "body": [
+            "Die folgenden Dienste werden nur genutzt, wenn Sie dies wünschen, und unterliegen eigenen Datenschutzbestimmungen:"
+          ],
+          "list": [
+            "Online-Buchung: ElektraWeb (avsarhotel.rezervasyonal.com)",
+            "Karte: Google Maps – bis Sie auf „Karte anzeigen“ klicken, wird keine Anfrage an Google gesendet",
+            "Nachrichten: WhatsApp (Meta)",
+            "Speisekarte des Dialogue Coffee & Kitchen: FineDine"
+          ]
+        },
+        {
+          "title": "4. Sicherheit",
+          "body": [
+            "Die Website ist nur über eine verschlüsselte Verbindung (HTTPS) erreichbar. Wir treffen angemessene technische und organisatorische Maßnahmen zum Schutz Ihrer Daten."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Änderungen",
+          "body": [
+            "Wir können diese Erklärung bei Bedarf aktualisieren. Die aktuelle Fassung ist stets auf dieser Seite veröffentlicht."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. Kontakt",
+          "body": [
+            "Bei Fragen schreiben Sie an {email} oder rufen Sie {phone} an."
+          ],
+          "list": []
+        }
+      ]
+    },
+    "terms": {
+      "intro": "Mit der Nutzung von hotelavsar.com akzeptieren Sie die folgenden Bedingungen. Betreiber der Website ist {company}.",
+      "sections": [
+        {
+          "title": "1. Zweck der Website",
+          "body": [
+            "Diese Website informiert über das {hotel} und leitet Sie zu unserem Online-Buchungssystem weiter."
+          ],
+          "list": []
+        },
+        {
+          "title": "2. Inhalte",
+          "body": [
+            "Wir achten auf korrekte und aktuelle Informationen; Zimmeraufteilung, Ausstattung und Öffnungszeiten können sich jedoch ohne Vorankündigung ändern. Bilder dienen der Information."
+          ],
+          "list": []
+        },
+        {
+          "title": "3. Preise und Buchungen",
+          "body": [
+            "Preise, Verfügbarkeit, Zahlungs- und Stornobedingungen werden in unserem Online-Buchungssystem (ElektraWeb) angezeigt; bei der Buchung gelten dessen Bedingungen. Für Änderungen Ihrer Buchung wenden Sie sich bitte direkt an das Hotel."
+          ],
+          "list": []
+        },
+        {
+          "title": "4. Nutzung",
+          "body": [
+            "Sie verpflichten sich, die Website rechtmäßig zu nutzen, korrekte Angaben zu machen und keine rechtswidrigen, schädlichen oder Rechte Dritter verletzenden Inhalte zu übermitteln."
+          ],
+          "list": []
+        },
+        {
+          "title": "5. Geistiges Eigentum",
+          "body": [
+            "Texte, Bilder, Logos und Gestaltung der Website gehören {company} oder deren Lizenzgebern. Außer für den persönlichen, nicht kommerziellen Gebrauch dürfen sie ohne Erlaubnis nicht kopiert oder verbreitet werden."
+          ],
+          "list": []
+        },
+        {
+          "title": "6. Externe Links",
+          "body": [
+            "Die Website kann Links zu Websites Dritter enthalten. Für deren Inhalte und Praktiken sind wir nicht verantwortlich."
+          ],
+          "list": []
+        },
+        {
+          "title": "7. Haftung",
+          "body": [
+            "Die Website wird „wie besehen“ bereitgestellt. Ein unterbrechungs- oder fehlerfreier Betrieb wird nicht garantiert; soweit gesetzlich zulässig, haften wir nicht für mittelbare Schäden aus der Nutzung."
+          ],
+          "list": []
+        },
+        {
+          "title": "8. Änderungen",
+          "body": [
+            "Wir können diese Bedingungen bei Bedarf aktualisieren; die aktuelle Fassung gilt ab Veröffentlichung auf dieser Seite."
+          ],
+          "list": []
+        },
+        {
+          "title": "9. Anwendbares Recht",
+          "body": [
+            "Es gilt das Recht der Republik Türkei. Zuständig sind die Gerichte und Vollstreckungsbehörden von Antalya."
+          ],
+          "list": []
+        }
+      ]
     }
   }
 }

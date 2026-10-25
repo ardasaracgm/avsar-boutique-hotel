@@ -47,6 +47,11 @@ export const hotel = {
 
   legal: {
     tourismLicenseNo: { value: "2022-7-1027", verified: true },
+    // TODO: registered company name (ticari ünvan) of the operator — data controller in KVKK texts.
+    // While null, the legal pages fall back to the hotel name.
+    companyTitle: null as string | null,
+    /** Date the legal texts (KVKK, privacy, terms) were last revised. */
+    textsUpdated: "2026-10-25",
   },
 
   property: {

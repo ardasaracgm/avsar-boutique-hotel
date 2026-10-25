@@ -11,8 +11,8 @@ import { MediaPlaceholder } from "@/components/ui/media-placeholder";
 import { ButtonAnchor } from "@/components/ui/button";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [base, t] = await Promise.all([pageMetadata("/gallery", "gallery"), getTranslations("galleryPage")]);
-  return { ...base, description: t("lead") };
+  const t = await getTranslations("galleryPage");
+  return pageMetadata("/gallery", "gallery", t("lead"));
 }
 
 export default async function GalleryPage() {

@@ -11,8 +11,8 @@ import { RoomCard } from "@/components/rooms/room-card";
 import { RoomPolicies } from "@/components/rooms/room-policies";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [base, t] = await Promise.all([pageMetadata("/rooms", "rooms"), getTranslations("roomsPage")]);
-  return { ...base, description: t("intro") };
+  const t = await getTranslations("roomsPage");
+  return pageMetadata("/rooms", "rooms", t("intro"));
 }
 
 export default async function RoomsPage() {

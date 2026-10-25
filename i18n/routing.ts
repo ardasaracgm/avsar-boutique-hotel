@@ -23,6 +23,8 @@ export const routing = defineRouting({
   locales,
   defaultLocale: "tr",
   localePrefix: "always",
+  // hreflang is emitted as <link> tags per page (lib/seo.ts); avoid a second, conflicting set in HTTP headers.
+  alternateLinks: false,
   pathnames: {
     "/": "/",
     "/rooms": { tr: "/odalar", en: "/rooms", de: "/zimmer", ru: "/nomera" },

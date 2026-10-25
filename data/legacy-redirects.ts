@@ -2,8 +2,7 @@
  * 301 redirects from the old WordPress site (hotelavsar.com) to the new routes.
  * Consumed by next.config.ts `redirects()`. Target paths are TR (default locale).
  *
- * TODO before launch: crawl the old sitemap (wp-sitemap.xml) for any URL missing here,
- * including category/tag/author archives and the broken "Sürdürülebilirlik" page.
+ * Before launch: crawl the old sitemap (wp-sitemap.xml) once more for any URL missing here.
  */
 
 import { rooms } from "./rooms";
@@ -26,4 +25,12 @@ export const legacyRedirects: { source: string; destination: string }[] = [
     source: r.legacyPath!.replace(/\/$/, ""),
     destination: `/tr/odalar/${r.slug}`,
   })),
+  // Catch-alls for the rest of the old WordPress structure (must stay after the specific rules).
+  { source: "/hostel_room/:slug", destination: "/tr/odalar" },
+  { source: "/category/:path*", destination: "/tr" },
+  { source: "/tag/:path*", destination: "/tr" },
+  { source: "/author/:path*", destination: "/tr" },
+  { source: "/feed", destination: "/tr" },
+  { source: "/wp-login.php", destination: "/tr" },
+  { source: "/wp-admin/:path*", destination: "/tr" },
 ];

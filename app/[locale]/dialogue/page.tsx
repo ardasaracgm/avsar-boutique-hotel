@@ -15,8 +15,8 @@ import { Heading, Text } from "@/components/ui/typography";
 import { ButtonAnchor } from "@/components/ui/button";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const [base, t] = await Promise.all([pageMetadata("/dialogue", "dialogue"), getTranslations("dialoguePage")]);
-  return { ...base, description: t("lead") };
+  const t = await getTranslations("dialoguePage");
+  return pageMetadata("/dialogue", "dialogue", t("lead"));
 }
 
 const dayItems = [
