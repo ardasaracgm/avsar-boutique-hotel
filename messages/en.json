@@ -268,5 +268,38 @@
       "privateBathroom": "Private bathroom",
       "dailyHousekeeping": "Daily housekeeping"
     }
+  },
+  "dialoguePage": {
+    "eyebrow": "The café and restaurant of Avşar Boutique Hotel",
+    "lead": "Just across from the hotel, on the cliffs. Start the day with breakfast facing the Mediterranean and end it with the same view.",
+    "introTitle": "A table facing the view",
+    "introText": "Dialogue Coffee & Kitchen is where our guests start the day and keep coming back to. Breakfast, a coffee break or dinner with the sea and the Taurus Mountains in view — all in the same warm atmosphere.",
+    "dayTitle": "A day at Dialogue",
+    "day": {
+      "breakfast": {
+        "title": "Breakfast",
+        "text": "Breakfast is included for hotel guests and served facing the sea.",
+        "tag": "Included in your stay"
+      },
+      "meals": {
+        "title": "Lunch and dinner",
+        "text": "Choose from the à la carte menu during the day and in the evening.",
+        "tag": "Paid"
+      },
+      "music": {
+        "title": "Live music",
+        "text": "Dinner with live music on most weekend evenings.",
+        "tag": "Weekends"
+      }
+    },
+    "infoTitle": "Practical information",
+    "info": {
+      "location": "Location",
+      "locationValue": "Just across from the hotel, on the cliffs",
+      "contact": "Information and table bookings",
+      "contactValue": "Reach us by WhatsApp or phone"
+    },
+    "ctaTitle": "A stay with breakfast and a view",
+    "ctaText": "Breakfast is included in every room. Choose your dates and check availability."
   }
 }

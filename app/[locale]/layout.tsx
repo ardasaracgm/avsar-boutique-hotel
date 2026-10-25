@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { locale as rootLocale } from "next/root-params";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { hotel } from "@/data/hotel";
 import { localeDirection, localeTag, routing } from "@/i18n/routing";
 import { bodyFont, headingFont } from "@/lib/fonts";
@@ -49,8 +49,25 @@ export const viewport: Viewport = {
   themeColor: "#f6f2eb",
 };
 
+/**
+ * Only the namespaces used by Client Components are sent to the browser
+ * (Header, LanguageSwitcher, LocaleLinks, BookingBar, StickyBookBar).
+ * Add a namespace here when a new Client Component calls useTranslations.
+ */
+async function clientMessages() {
+  const m = await getMessages();
+  return {
+    a11y: m.a11y,
+    nav: m.nav,
+    languages: m.languages,
+    whatsapp: m.whatsapp,
+    home: { booking: m.home.booking, sticky: m.home.sticky },
+  };
+}
+
 export default async function LocaleLayout({ children }: { children: React.ReactNode }) {
   const locale = await resolveLocale();
+  const messages = await clientMessages();
 
   return (
     <html
@@ -59,7 +76,7 @@ export default async function LocaleLayout({ children }: { children: React.React
       className={`${headingFont.variable} ${bodyFont.variable} antialiased`}
     >
       <body className="flex min-h-dvh flex-col">
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
           <Header />
             <main id="main" tabIndex={-1} className="flex-1 focus:outline-none">
               {children}

@@ -268,5 +268,38 @@
       "privateBathroom": "Eigenes Bad",
       "dailyHousekeeping": "Tägliche Zimmerreinigung"
     }
+  },
+  "dialoguePage": {
+    "eyebrow": "Café und Restaurant des Avşar Boutique Hotel",
+    "lead": "Direkt gegenüber dem Hotel, auf den Klippen. Beginnen Sie den Tag mit Frühstück und Blick aufs Mittelmeer — und beenden Sie ihn mit derselben Aussicht.",
+    "introTitle": "Ein Tisch mit Blick aufs Meer",
+    "introText": "Im Dialogue Coffee & Kitchen beginnen unsere Gäste den Tag — und kehren gerne zurück. Frühstück, Kaffeepause oder Abendessen mit Blick auf das Meer und das Taurusgebirge, alles in derselben herzlichen Atmosphäre.",
+    "dayTitle": "Ein Tag im Dialogue",
+    "day": {
+      "breakfast": {
+        "title": "Frühstück",
+        "text": "Für Hotelgäste ist das Frühstück inklusive und wird mit Meerblick serviert.",
+        "tag": "Im Aufenthalt inklusive"
+      },
+      "meals": {
+        "title": "Mittag- und Abendessen",
+        "text": "Tagsüber und abends wählen Sie à la carte.",
+        "tag": "Kostenpflichtig"
+      },
+      "music": {
+        "title": "Livemusik",
+        "text": "An den meisten Wochenenden Abendessen mit Livemusik.",
+        "tag": "Wochenenden"
+      }
+    },
+    "infoTitle": "Praktische Informationen",
+    "info": {
+      "location": "Lage",
+      "locationValue": "Direkt gegenüber dem Hotel, auf den Klippen",
+      "contact": "Informationen und Tischreservierung",
+      "contactValue": "Per WhatsApp oder Telefon"
+    },
+    "ctaTitle": "Ein Aufenthalt mit Frühstück und Aussicht",
+    "ctaText": "Frühstück ist in allen Zimmern inklusive. Wählen Sie Ihre Reisedaten und prüfen Sie die Verfügbarkeit."
   }
 }

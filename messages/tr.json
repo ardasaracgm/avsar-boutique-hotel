@@ -268,5 +268,38 @@
       "privateBathroom": "Özel banyo",
       "dailyHousekeeping": "Günlük oda temizliği"
     }
+  },
+  "dialoguePage": {
+    "eyebrow": "Avşar Boutique Hotel’in kafe ve restoranı",
+    "lead": "Otelin hemen karşısında, falezlerin üzerinde. Güne Akdeniz manzarasına karşı kahvaltıyla başlayın, akşamı aynı manzarayla tamamlayın.",
+    "introTitle": "Manzaranın tam karşısında bir sofra",
+    "introText": "Dialogue Coffee & Kitchen, misafirlerimizin güne başladığı ve gün boyu dönüp geldiği yer. Deniz ve Toros Dağları manzarası eşliğinde kahvaltı, kahve molası ya da akşam yemeği; hepsi aynı sıcak atmosferde.",
+    "dayTitle": "Dialogue’da bir gün",
+    "day": {
+      "breakfast": {
+        "title": "Kahvaltı",
+        "text": "Konaklayan misafirlerimiz için kahvaltı fiyata dahildir ve deniz manzarasına karşı servis edilir.",
+        "tag": "Konaklamaya dahil"
+      },
+      "meals": {
+        "title": "Öğle ve akşam yemeği",
+        "text": "Gün içinde ve akşam à la carte menüden seçim yapabilirsiniz.",
+        "tag": "Ücretli"
+      },
+      "music": {
+        "title": "Canlı müzik",
+        "text": "Çoğu hafta sonu akşamları canlı müzik eşliğinde yemek keyfi.",
+        "tag": "Hafta sonları"
+      }
+    },
+    "infoTitle": "Pratik bilgiler",
+    "info": {
+      "location": "Konum",
+      "locationValue": "Otelin hemen karşısında, falezlerin üzerinde",
+      "contact": "Bilgi ve masa rezervasyonu",
+      "contactValue": "WhatsApp veya telefonla ulaşın"
+    },
+    "ctaTitle": "Kahvaltısı manzaralı bir konaklama",
+    "ctaText": "Tüm odalarımızda kahvaltı dahildir. Tarihlerinizi seçin, müsaitliği görün."
   }
 }
